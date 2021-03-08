@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 md:lt-18 lg:mt-24">
+  <div class="mt-12 md:mt-16 lg:mt-20">
     <h1 class="text-4xl font-semibold mb-6">kodewilayah<span class="text-red-500">.id</span></h1>
     <p class="mb-4 text-gray-500 text-xl">Referensi terkurasi kode wilayah se-Indonesia, hingga tingkat kelurahan/desa</p>
     <p class="mb-8">
@@ -7,11 +7,13 @@
       <!-- <a href="#/browse" class="px-6 py-3 inline-block bg-gray-100 text-gray-600 rounded-lg ml-4 border-gray-200 border">Browse hierarchy</a> -->
     </p>
     <hr class="mb-8" />
-    <h2 class="mb-2 text-gray-800 font-semibold">Telusuri berdasarkan provinsi</h2>
+    <h2 class="mb-4 text-gray-800 font-semibold">Telusuri berdasarkan provinsi</h2>
     <div class="md:flex md:flex-cols-2 lg:flex-cols-3 flex-flow-col-dense md:gap-4">
-      <ul v-for="cluster in islands" :key="cluster[0][0]" class="flex-1">
-        <li v-for="[id, name] in cluster" :key="id" class="mb-1">
-          <router-link :to="`/${id}`" class="text-red-700 hover:text-red-500">
+      <ul v-for="cluster in islands" :key="cluster[0][0]" class="flex-1 lg:text-xl">
+        <li v-for="[id, name] in cluster" :key="id" class="md:mb-1 text-gray-700">
+          <router-link
+            :to="`/${id}`"
+            class="text-red-700 hover:text-red-900 hover:bg-red-50 md:hover:bg-transparent -mx-2 px-2 md:mx-0 md:px-0 block md:inline py-2 md:py-0 cursor-pointer">
             <span class="mr-1 text-gray-300 font-mono text-sm" aria-hidden="true">{{id}}</span>
             {{name}}
           </router-link>
@@ -53,14 +55,14 @@
       [34,'DI Yogyakarta'],
       [35,'Jawa Timur'],
       [51,'Bali'],
-      [52,'Nusa Tenggara Barat'],
-      [53,'Nusa Tenggara Timur'],
       [61,'Kalimantan Barat'],
       [62,'Kalimantan Tengah'],
       [63,'Kalimantan Selatan'],
       [64,'Kalimantan Timur'],
       [65,'Kalimantan Utara'],
     ], [
+      [52,'Nusa Tenggara Barat'],
+      [53,'Nusa Tenggara Timur'],
       [71,'Sulawesi Utara'],
       [72,'Sulawesi Tengah'],
       [73,'Sulawesi Selatan'],

@@ -3,9 +3,7 @@
   <header class="mt-6">
     <h1 class="text-2xl font-semibold mb-6 border-b pb-4">
       <router-link to="/">
-        <span class="text-red-700 font-light mr-4 border-r pr-4">telusur</span>
-        kodewilayah
-        <span class="text-red-500">.id</span>
+        kodewilayah<span class="text-red-500">.id</span>
       </router-link>
     </h1>
   </header>
@@ -29,29 +27,26 @@
         {{region.name}}
       </span>
     </h1>
-    <table class="table-auto w-full -mx-2" v-if="childrenCodes.length > 0">
-      <thead>
-        <tr>
-          <th class="text-left font-normal text-gray-300 p-2 pr-4 w-14">Kode</th>
-          <th class="text-left font-normal text-gray-300 p-2">Nama</th>
-        </tr>
-      </thead>
-      <tbody>
-        <router-link v-for="r in region.childrenCodes" :key="r" :to="`/${r}`" custom v-slot="{ navigate }">
-          <tr @click="navigate" class="hover:bg-red-50 cursor-pointer">
-            <td class="p-2 font-mono text-gray-500 text-sm">
-              <router-link :to="`/${r}`">{{r}}</router-link>
-            </td>
-            <td class="p-2 text-gray-800">
-              <router-link :to="`/${r}`">
-                <span class="text-gray-600">{{findRegion(r).prefix}}</span>
-                {{findRegion(r).name}}
-              </router-link>
-            </td>
-          </tr>
-        </router-link>
-      </tbody>
-    </table>
+    <template v-if="childrenCodes.length > 0">
+      <h1 class="text-gray-400 mb-2">Daerah Tingkat {{region.level + 1}} di bawah {{region.prefix}} {{region.name}}:</h1>
+      <table class="table-auto w-full -mx-2">
+        <tbody>
+          <router-link v-for="r in region.childrenCodes" :key="r" :to="`/${r}`" custom v-slot="{ navigate }">
+            <tr @click="navigate" class="hover:bg-red-50 cursor-pointer">
+              <td class="w-14 p-2 font-mono text-gray-500 text-sm">
+                <router-link :to="`/${r}`">{{r}}</router-link>
+              </td>
+              <td class="p-2 text-red-700">
+                <router-link :to="`/${r}`">
+                  <span class="opacity-70">{{findRegion(r).prefix}}</span>
+                  {{findRegion(r).name}}
+                </router-link>
+              </td>
+            </tr>
+          </router-link>
+        </tbody>
+      </table>
+    </template>
   </div>
 </template>
 
