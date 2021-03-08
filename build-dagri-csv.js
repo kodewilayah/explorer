@@ -25,6 +25,7 @@ rows.forEach(row => {
     let prefix = '';
     let unprefixedName = '';
     unprefixedName = row[level + 2].replace(/Kep\./ig, 'Kepulauan');
+    unprefixedName = unprefixedName.replaceAll('"', '\'');
     if (level === 1) {
         if (unprefixedName.startsWith('DKI')) {
             unprefixedName = 'DKI Jakarta';
@@ -133,3 +134,11 @@ const sortedCleanRows = sortBy(cleanRows, row => row.code);
 
 const outputCsv = papa.unparse(sortedCleanRows);
 fs.writeFileSync('./data/dagri2017.csv', outputCsv);
+
+sortedCleanRows.forEach(row => {
+    delete row.type;
+})
+
+const outputCsvInternal = papa.unparse(sortedCleanRows, { delimiter: '\t' })
+fs.writeFileSync('./data/dagri2017.tsv', outputCsvInternal);
+

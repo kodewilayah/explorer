@@ -2907,7 +2907,7 @@ code,level,type,localPrefix,name
 11.07.16,3,KECAMATAN,Kecamatan,Pidie
 11.07.16.2001,4,DESA,Gampong,Tijue
 11.07.16.2002,4,DESA,Gampong,Lampeudue Tunong
-11.07.16.2003,4,DESA,Gampong,"Pu""uk"
+11.07.16.2003,4,DESA,Gampong,Pu'uk
 11.07.16.2004,4,DESA,Gampong,Lampeudue Baroh
 11.07.16.2005,4,DESA,Gampong,Paya
 11.07.16.2006,4,DESA,Gampong,Mesjid Reuntoh
@@ -47515,7 +47515,7 @@ code,level,type,localPrefix,name
 35.13.15.2014,4,DESA,Desa,Widoro
 35.13.15.2015,4,DESA,Desa,Gebangan
 35.13.15.2016,4,DESA,Desa,Duwuhan
-35.13.15.2017,4,DESA,Desa,"Soka""an"
+35.13.15.2017,4,DESA,Desa,Soka'an
 35.13.16,3,KECAMATAN,Kecamatan,Pejarakan
 35.13.16.2001,4,DESA,Desa,Selogudig Kulon
 35.13.16.2002,4,DESA,Desa,Selogudig Wetan
@@ -49313,7 +49313,7 @@ code,level,type,localPrefix,name
 35.18.17.2004,4,DESA,Desa,Karangsemi
 35.18.17.2005,4,DESA,Desa,Senjayan
 35.18.17.2006,4,DESA,Desa,Kedungglugu
-35.18.17.2007,4,DESA,Desa,"Ja""an"
+35.18.17.2007,4,DESA,Desa,Ja'an
 35.18.17.2008,4,DESA,Desa,Sumberagung
 35.18.17.2009,4,DESA,Desa,Ketawang
 35.18.17.2010,4,DESA,Desa,Ngunjung
@@ -51402,7 +51402,7 @@ code,level,type,localPrefix,name
 35.25.01.2015,4,DESA,Desa,Jrebeng
 35.25.01.2016,4,DESA,Desa,Mojopetung
 35.25.01.2017,4,DESA,Desa,Sekargadung
-35.25.01.2018,4,DESA,Desa,"Ima""an"
+35.25.01.2018,4,DESA,Desa,Ima'an
 35.25.01.2019,4,DESA,Desa,Babakbawo
 35.25.01.2020,4,DESA,Desa,Babaksari
 35.25.01.2021,4,DESA,Desa,Sambogunung
@@ -51849,7 +51849,7 @@ code,level,type,localPrefix,name
 35.26.07.2004,4,DESA,Desa,Tobaddung
 35.26.07.2005,4,DESA,Desa,Tolbuk
 35.26.07.2006,4,DESA,Desa,Moarah
-35.26.07.2007,4,DESA,Desa,"Ra""as"
+35.26.07.2007,4,DESA,Desa,Ra'as
 35.26.07.2008,4,DESA,Desa,Polongan
 35.26.07.2009,4,DESA,Desa,Karang Asem
 35.26.07.2010,4,DESA,Desa,Trogan
@@ -51864,7 +51864,7 @@ code,level,type,localPrefix,name
 35.26.07.2019,4,DESA,Desa,Tenggun Dajah
 35.26.07.2020,4,DESA,Desa,Larangan Sorjan
 35.26.07.2021,4,DESA,Desa,Larangan Glintong
-35.26.07.2022,4,DESA,Desa,"Ko""ol"
+35.26.07.2022,4,DESA,Desa,Ko'ol
 35.26.08,3,KECAMATAN,Kecamatan,Sepulu
 35.26.08.2001,4,DESA,Desa,Sepulu
 35.26.08.2002,4,DESA,Desa,Maneron
@@ -51903,11 +51903,11 @@ code,level,type,localPrefix,name
 35.26.10.2004,4,DESA,Desa,Tramok
 35.26.10.2005,4,DESA,Desa,Katol Timur
 35.26.10.2006,4,DESA,Desa,Lembung Gunong
-35.26.10.2007,4,DESA,Desa,"Ampara""an"
+35.26.10.2007,4,DESA,Desa,Ampara'an
 35.26.10.2008,4,DESA,Desa,Kokop
 35.26.10.2009,4,DESA,Desa,Tlokoh
 35.26.10.2010,4,DESA,Desa,Durjan
-35.26.10.2011,4,DESA,Desa,"Mano""an"
+35.26.10.2011,4,DESA,Desa,Mano'an
 35.26.10.2012,4,DESA,Desa,Mandung
 35.26.10.2013,4,DESA,Desa,Bandang Laok
 35.26.11,3,KECAMATAN,Kecamatan,Kwanyar
@@ -51935,7 +51935,7 @@ code,level,type,localPrefix,name
 35.26.12.2005,4,DESA,Desa,Sukolilo Timur
 35.26.12.2006,4,DESA,Desa,Sukolilo Barat
 35.26.12.2007,4,DESA,Desa,Bringen
-35.26.12.2008,4,DESA,Desa,"Ba""engas"
+35.26.12.2008,4,DESA,Desa,Ba'engas
 35.26.12.2009,4,DESA,Desa,Bunajih
 35.26.12.2010,4,DESA,Desa,Sendang Laok
 35.26.12.2011,4,DESA,Desa,Sendang Dajah
@@ -51982,7 +51982,7 @@ code,level,type,localPrefix,name
 35.26.14.2014,4,DESA,Desa,Jaddung
 35.26.14.2015,4,DESA,Desa,Pacangan
 35.26.14.2016,4,DESA,Desa,Bancang
-35.26.14.2017,4,DESA,Desa,"Ja""ah"
+35.26.14.2017,4,DESA,Desa,Ja'ah
 35.26.14.2018,4,DESA,Desa,Masaran
 35.26.15,3,KECAMATAN,Kecamatan,Blega
 35.26.15.2001,4,DESA,Desa,Blega
@@ -52020,8 +52020,8 @@ code,level,type,localPrefix,name
 35.26.16.2013,4,DESA,Desa,Glisgis
 35.26.16.2014,4,DESA,Desa,Brakas Dajah
 35.26.16.2015,4,DESA,Desa,Modung
-35.26.16.2016,4,DESA,Desa,"Suwa""an"
-35.26.16.2017,4,DESA,Desa,"Mangga""an"
+35.26.16.2016,4,DESA,Desa,Suwa'an
+35.26.16.2017,4,DESA,Desa,Mangga'an
 35.26.17,3,KECAMATAN,Kecamatan,Konang
 35.26.17.2001,4,DESA,Desa,Bandung
 35.26.17.2002,4,DESA,Desa,Konang
@@ -52107,7 +52107,7 @@ code,level,type,localPrefix,name
 35.27.04,3,KECAMATAN,Kecamatan,Camplong
 35.27.04.2001,4,DESA,Desa,Taddan
 35.27.04.2002,4,DESA,Desa,Banjar Talela
-35.27.04.2003,4,DESA,Desa,"Tamba""an"
+35.27.04.2003,4,DESA,Desa,Tamba'an
 35.27.04.2004,4,DESA,Desa,Prajjan
 35.27.04.2005,4,DESA,Desa,Dharma Camplong
 35.27.04.2006,4,DESA,Desa,Batukarang
@@ -52117,8 +52117,8 @@ code,level,type,localPrefix,name
 35.27.04.2010,4,DESA,Desa,Banjartabulu
 35.27.04.2011,4,DESA,Desa,Anggersek
 35.27.04.2012,4,DESA,Desa,Madupat
-35.27.04.2013,4,DESA,Desa,"Pamola""an"
-35.27.04.2014,4,DESA,Desa,"Plampa""an"
+35.27.04.2013,4,DESA,Desa,Pamola'an
+35.27.04.2014,4,DESA,Desa,Plampa'an
 35.27.05,3,KECAMATAN,Kecamatan,Omben
 35.27.05.2001,4,DESA,Desa,Kebun Sareh
 35.27.05.2002,4,DESA,Desa,Karangnangger
@@ -52205,7 +52205,7 @@ code,level,type,localPrefix,name
 35.27.09.2017,4,DESA,Desa,Masaran
 35.27.09.2018,4,DESA,Desa,Banyuates
 35.27.09.2019,4,DESA,Desa,Jatra Timur
-35.27.09.2020,4,DESA,Desa,"Tapa""an"
+35.27.09.2020,4,DESA,Desa,Tapa'an
 35.27.10,3,KECAMATAN,Kecamatan,Robatal
 35.27.10.2008,4,DESA,Desa,Lepelle
 35.27.10.2009,4,DESA,Desa,Bapelle
@@ -52720,7 +52720,7 @@ code,level,type,localPrefix,name
 35.29.18.2012,4,DESA,Desa,Lapa Laok
 35.29.18.2013,4,DESA,Desa,Lapa Daya
 35.29.18.2014,4,DESA,Desa,Bancamara
-35.29.18.2015,4,DESA,Desa,"Banra""as"
+35.29.18.2015,4,DESA,Desa,Banra'as
 35.29.19,3,KECAMATAN,Kecamatan,Gapura
 35.29.19.2001,4,DESA,Desa,Grujugan
 35.29.19.2002,4,DESA,Desa,Longos
@@ -52759,7 +52759,7 @@ code,level,type,localPrefix,name
 35.29.21.2006,4,DESA,Desa,Talaga
 35.29.21.2007,4,DESA,Desa,Rosong
 35.29.21.2008,4,DESA,Desa,Sonok
-35.29.22,3,KECAMATAN,Kecamatan,"Ra""as"
+35.29.22,3,KECAMATAN,Kecamatan,Ra'as
 35.29.22.2001,4,DESA,Desa,Ketupat
 35.29.22.2002,4,DESA,Desa,Jungkat
 35.29.22.2003,4,DESA,Desa,Kropoh
@@ -56773,7 +56773,7 @@ code,level,type,localPrefix,name
 52.06.11.2003,4,DESA,Desa,Rupe
 52.06.11.2004,4,DESA,Desa,Kalodu
 52.06.11.2005,4,DESA,Desa,Kawuwu
-52.06.11.2006,4,DESA,Desa,"Doro O""o"
+52.06.11.2006,4,DESA,Desa,Doro O'o
 52.06.11.2007,4,DESA,Desa,Laju
 52.06.11.2008,4,DESA,Desa,Kangga
 52.06.11.2009,4,DESA,Desa,Karampi
@@ -57355,10 +57355,10 @@ code,level,type,localPrefix,name
 53.02.07.2015,4,DESA,Desa,Nifukani
 53.02.08,3,KECAMATAN,Kecamatan,Amanatun Selatan
 53.02.08.2001,4,DESA,Desa,Oinlasi
-53.02.08.2002,4,DESA,Desa,"Nunle""u"
+53.02.08.2002,4,DESA,Desa,Nunle'u
 53.02.08.2003,4,DESA,Desa,Kokoi
 53.02.08.2004,4,DESA,Desa,Fenun
-53.02.08.2005,4,DESA,Desa,"Kuale""u"
+53.02.08.2005,4,DESA,Desa,Kuale'u
 53.02.08.2006,4,DESA,Desa,Lanu
 53.02.08.2007,4,DESA,Desa,Sunu
 53.02.08.2008,4,DESA,Desa,Anin
@@ -57924,7 +57924,7 @@ code,level,type,localPrefix,name
 53.05.02.2019,4,DESA,Desa,Pulau Buaya
 53.05.02.2020,4,DESA,Desa,Hulnani
 53.05.02.2022,4,DESA,Desa,O'a Mate
-53.05.02.2023,4,DESA,Desa,"Ala""ang"
+53.05.02.2023,4,DESA,Desa,Ala'ang
 53.05.02.2024,4,DESA,Desa,Lefokisu
 53.05.02.2025,4,DESA,Desa,Bampalola
 53.05.02.2026,4,DESA,Desa,Lewalu
@@ -59709,7 +59709,7 @@ code,level,type,localPrefix,name
 53.14.07.2001,4,DESA,Desa,Sedeoen
 53.14.07.2002,4,DESA,Desa,Nemberala
 53.14.07.2003,4,DESA,Desa,Oenggaut
-53.14.07.2004,4,DESA,Desa,"Bo""a"
+53.14.07.2004,4,DESA,Desa,Bo'a
 53.14.07.2005,4,DESA,Desa,Oenitas
 53.14.07.2006,4,DESA,Desa,Oelolok
 53.14.07.2007,4,DESA,Desa,Mbueain
@@ -62245,7 +62245,7 @@ code,level,type,localPrefix,name
 61.07.01.2007,4,DESA,Desa,Sungai Pangkalan II
 61.07.02,3,KECAMATAN,Kecamatan,Samalantan
 61.07.02.2001,4,DESA,Desa,Samalantan
-61.07.02.2002,4,DESA,Desa,"Saba""u"
+61.07.02.2002,4,DESA,Desa,Saba'u
 61.07.02.2003,4,DESA,Desa,Tumiang
 61.07.02.2004,4,DESA,Desa,Babane
 61.07.02.2005,4,DESA,Desa,Pasti Jaya
@@ -66450,7 +66450,7 @@ code,level,type,localPrefix,name
 63.09.03.2005,4,DESA,Desa,Barimbun
 63.09.03.2006,4,DESA,Desa,Mangkusip
 63.09.03.2007,4,DESA,Desa,Pamarangan Kanan
-63.09.03.2008,4,DESA,Desa,"Pulau Ku""u"
+63.09.03.2008,4,DESA,Desa,Pulau Ku'u
 63.09.03.2009,4,DESA,Desa,Tanta
 63.09.03.2010,4,DESA,Desa,Padang Panjang
 63.09.03.2011,4,DESA,Desa,Puain Kanan
@@ -66648,7 +66648,7 @@ code,level,type,localPrefix,name
 63.10.05.2007,4,DESA,Desa,Teluk Kepayang
 63.10.05.2008,4,DESA,Desa,Tapus
 63.10.05.2009,4,DESA,Desa,Mangkalapi
-63.10.05.2010,4,DESA,Desa,"Hati""if"
+63.10.05.2010,4,DESA,Desa,Hati'if
 63.10.05.2011,4,DESA,Desa,Timbarau Panjang
 63.10.05.2012,4,DESA,Desa,Sungai Rukam
 63.10.05.2013,4,DESA,Desa,Darasan Binjai
@@ -71721,7 +71721,7 @@ code,level,type,localPrefix,name
 72.06.07.2001,4,DESA,Desa,Terebino
 72.06.07.2002,4,DESA,Desa,Torukuno
 72.06.07.2003,4,DESA,Desa,Ngapaea
-72.06.07.2004,4,DESA,Desa,"Padala""a"
+72.06.07.2004,4,DESA,Desa,Padala'a
 72.06.07.2005,4,DESA,Desa,Morompaitonga
 72.06.07.2006,4,DESA,Desa,Kofalagadi
 72.06.07.2008,4,DESA,Desa,Padei Laut
@@ -84989,7 +84989,7 @@ code,level,type,localPrefix,name
 91.09.10.1001,4,KELURAHAN,Kelurahan,Tembagapura
 91.09.10.2002,4,DESA,Kampung,Waa
 91.09.10.2003,4,DESA,Kampung,Arwanop
-91.09.10.2004,4,DESA,Kampung,"T""Singa"
+91.09.10.2004,4,DESA,Kampung,T'Singa
 91.09.10.2006,4,DESA,Kampung,Jagamin
 91.09.10.2007,4,DESA,Kampung,Banigogom
 91.09.10.2008,4,DESA,Kampung,Opitawak
