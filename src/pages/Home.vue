@@ -6,11 +6,11 @@
       <a href="/data/dagri2017.csv" class="px-6 py-3 inline-block bg-red-500 rounded-lg text-white font-semibold">Unduh CSV</a>
       <!-- <a href="#/browse" class="px-6 py-3 inline-block bg-gray-100 text-gray-600 rounded-lg ml-4 border-gray-200 border">Browse hierarchy</a> -->
     </p>
-    <hr class="mb-8" />
+    <hr class="mb-6" />
     <h2 class="mb-4 text-gray-800 font-semibold">Telusuri berdasarkan provinsi</h2>
     <div class="md:flex md:flex-cols-2 lg:flex-cols-3 flex-flow-col-dense md:gap-4">
-      <ul v-for="cluster in islands" :key="cluster[0][0]" class="flex-1 lg:text-xl">
-        <li v-for="[id, name] in cluster" :key="id" class="md:mb-1 text-gray-700">
+      <ul v-for="cluster in clusters" :key="cluster[0][0]" class="flex-1">
+        <li v-for="[id, name] in cluster" :key="id" class="md:mb-1 lg:text-xl lg:mb-2 text-gray-700">
           <router-link
             :to="`/${id}`"
             class="text-red-700 hover:text-red-900 hover:bg-red-50 md:hover:bg-transparent -mx-2 px-2 md:mx-0 md:px-0 block md:inline py-2 md:py-0 cursor-pointer">
@@ -33,9 +33,12 @@
 </template>
 
 <script lang="ts" setup>
+  import { useTitle } from '@vueuse/core';
   import VLabel from '../components/VLabel.vue';
-  type Cluster = [number, string][];
-  const islands: Cluster[] = [
+
+  useTitle('Kode Wilayah Indonesia');
+
+  const clusters: [number, string][][] = [
     [
       [11,'Aceh'],
       [12,'Sumatera Utara'],

@@ -7,11 +7,11 @@
       </router-link>
     </h1>
   </header>
-  <div v-if="isLoading" class="py-4 text-gray-400">
-    Loading data...
+  <div v-if="isLoading" class="py-9 text-gray-400 text-3xl font-light">
+    Loading...
   </div>
   <div v-else class="mb-8">
-    <div class="mt-8 mb-2">
+    <div class="mt-8 mb-4">
       <router-link to="/" v-if="region.level === 1" class="text-red-700">
         &larr; Indonesia
       </router-link>
@@ -33,7 +33,7 @@
         <tbody>
           <router-link v-for="r in region.childrenCodes" :key="r" :to="`/${r}`" custom v-slot="{ navigate }">
             <tr @click="navigate" class="hover:bg-red-50 cursor-pointer">
-              <td class="w-14 p-2 font-mono text-gray-500 text-sm">
+              <td class="w-14 p-2 font-mono text-gray-300 text-sm">
                 <router-link :to="`/${r}`">{{r}}</router-link>
               </td>
               <td class="p-2 text-red-700">
@@ -52,6 +52,7 @@
 
 <script lang="ts" setup>
   import { defineProps, ref, reactive, watchEffect } from 'vue';
+  import { useTitle } from '@vueuse/core';
   import { useDagriData } from '../dagri';
 
   const props = defineProps({
@@ -63,13 +64,16 @@
   const childrenCodes = reactive<string[]>([]);
   const { isLoading, regionMap, findRegion } = useDagriData();
 
+  const title = useTitle();
+
   watchEffect(() => {
     if (!isLoading.value) {
       if (props.code) {
         name.value = regionMap.get(props.code || '')?.name;
         region.value = findRegion(props.code);
         childrenCodes.splice(0);
-        childrenCodes.push(...region.value.childrenCodes)
+        childrenCodes.push(...region.value.childrenCodes);
+        title.value = `${region.value.prefix} ${region.value.name}`;
       }
     }
   });
