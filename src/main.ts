@@ -18,6 +18,14 @@ const router = createRouter({
       props: true
     }
   ]
-})
+});
+
+declare global {
+  interface Window { goatcounter?: any }
+}
+router.afterEach((path) => {
+  if ('goatcounter' in window)
+    window.goatcounter.count({ path })
+});
 
 createApp(App).use(router).mount('#app')
