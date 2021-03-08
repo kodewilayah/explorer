@@ -23,9 +23,9 @@ const router = createRouter({
 declare global {
   interface Window { goatcounter?: any }
 }
-router.afterEach((path) => {
+router.afterEach(({ fullPath }) => {
   if ('goatcounter' in window)
-    window.goatcounter.count({ path })
+    window.goatcounter.count({ path: fullPath })
 });
 
 createApp(App).use(router).mount('#app')
