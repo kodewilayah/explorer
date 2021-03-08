@@ -10,9 +10,11 @@
     "lodash": "^4.17.21",
     "papaparse": "^5.3.0",
     "title-case": "^3.0.3",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4"
   },
   "devDependencies": {
+    "@types/papaparse": "^5.2.5",
     "@vitejs/plugin-vue": "^1.0.4",
     "@vue/compiler-sfc": "^3.0.5",
     "@vuedx/typecheck": "^0.4.1",
