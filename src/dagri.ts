@@ -5,7 +5,6 @@ interface Region {
   code: string;
   parentCode?: string;
   childrenCodes?: string[];
-  type: string;
   level: number;
   prefix: string;
   name: string;
@@ -14,7 +13,6 @@ interface Region {
 interface CsvRow {
   code: string;
   level: string;
-  type: string;
   localPrefix: string;
   name: string;
 }
@@ -47,11 +45,14 @@ function loadRegion(region: Region) {
 }
 
 export async function loadCsv() {
-  const res = await fetch('/data/dagri2017.csv');
+  const res = await fetch('/data/dagri2017.tsv');
   const text = await res.text();
   return new Promise<void>((resolve, reject) => {
     parse<CsvRow>(text, {
       header: true,
+      worker: true,
+      delimiter: '\t',
+      fastMode: true,
       step: (row) => {
         if (row.errors.length > 0) {
           reject(row.errors);
@@ -62,7 +63,6 @@ export async function loadCsv() {
         loadRegion({
           code: data.code,
           level: parseInt(data.level),
-          type: data.type,
           prefix: data.localPrefix,
           name: data.name,
         });
@@ -85,7 +85,6 @@ function findRegion(code: string | undefined): Region {
     level: 1,
     name: '',
     prefix: '',
-    type: ''
   }
 }
 
