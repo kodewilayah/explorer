@@ -1,5 +1,9 @@
 {
     "tailwindCSS.includeLanguages": {
         "vue": "html"
-    }
+    },
+    "vuedx.telemetry": false,
+    "vuedx.autoClosingTags": false,
+    "vuedx.format.enable": false,
+    "editor.tabSize": 2
 }

@@ -1,7 +1,18 @@
 <template>
   <div class="mt-12 md:mt-16 lg:mt-20">
     <h1 class="text-4xl font-semibold mb-6">kodewilayah<span class="text-red-500">.id</span></h1>
-    <p class="mb-4 text-gray-500 text-xl">Referensi terkurasi kode wilayah se-Indonesia, hingga tingkat kelurahan/desa</p>
+    <div>
+      <p class="mb-2 text-gray-600 text-xl">
+        Referensi lengkap nama dan kode wilayah se-Indonesia
+      </p>
+      <ul class="mb-6 text-gray-500 text-lg">
+        <li class="mb-1">
+          📄 <b class="font-semibold text-gray-800">Siap digunakan</b> dalam bentuk CSV yang sudah dibersihkan</li>
+        <li class="mb-1">
+          🇮🇩 <b class="font-semibold text-gray-800">Lengkap</b> dengan kode Dukcapil, BPS, Pos, dan SLIK, hingga tingkat kelurahan/desa</li>
+        <li>✅ <b class="font-semibold text-gray-800">Bebas pakai</b> tanpa atribusi sama sekali</li>
+      </ul>
+    </div>
     <p class="mb-8">
       <a href="/data/dagri2017.csv" class="px-6 py-3 inline-block bg-red-500 rounded-lg text-white font-semibold">Unduh CSV</a>
       <!-- <a href="#/browse" class="px-6 py-3 inline-block bg-gray-100 text-gray-600 rounded-lg ml-4 border-gray-200 border">Browse hierarchy</a> -->

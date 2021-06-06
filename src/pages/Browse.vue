@@ -31,19 +31,17 @@
       <h1 class="text-gray-400 mb-2">Daerah Tingkat {{region.level + 1}} di bawah {{region.prefix}} {{region.name}}:</h1>
       <table class="table-auto w-full -mx-2">
         <tbody>
-          <router-link v-for="r in region.childrenCodes" :key="r" :to="`/${r}`" custom v-slot="{ navigate }">
-            <tr @click="navigate" class="hover:bg-red-50 cursor-pointer">
-              <td class="w-14 p-2 font-mono text-gray-300 text-sm">
-                <router-link :to="`/${r}`">{{r}}</router-link>
-              </td>
-              <td class="p-2 text-red-700">
-                <router-link :to="`/${r}`">
-                  <span class="opacity-70">{{findRegion(r).prefix}}</span>
-                  {{findRegion(r).name}}
-                </router-link>
-              </td>
-            </tr>
-          </router-link>
+          <tr v-for="r in region.childrenCodes" :key="r"  class="hover:bg-gray-100">
+            <td class="w-14 p-2 font-mono text-gray-300 text-sm">
+              <router-link :to="`/${r}`">{{r}}</router-link>
+            </td>
+            <td class="p-2 text-red-700">
+              <router-link :to="`/${r}`">
+                <span class="opacity-70">{{findRegion(r).prefix}}</span>
+                {{findRegion(r).name}}
+              </router-link>
+            </td>
+          </tr>
         </tbody>
       </table>
     </template>

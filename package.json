@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build:dagri": "node build-dagri-csv.js",
+    "build:bps": "ts-node -O '{\"module\":\"CommonJS\"}' src/scrape-bps.ts",
+    "build:data": "ts-node -O '{\"module\":\"CommonJS\"}' src/build-data.ts",
     "build": "vite build && cp -R data dist/data"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "vue-router": "^4.0.4"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.168",
     "@types/papaparse": "^5.2.5",
     "@vitejs/plugin-vue": "^1.0.4",
     "@vue/compiler-sfc": "^3.0.5",
@@ -22,6 +24,8 @@
     "@vuedx/typescript-plugin-vue": "^0.4.1",
     "autoprefixer": "^10.2.5",
     "netlify-cli": "^3.10.6",
+    "node-fetch": "^2.6.1",
+    "p-queue": "^6.6.2",
     "postcss": "^8.2.7",
     "tailwindcss": "^2.0.3",
     "ts-node": "^9.1.1",
