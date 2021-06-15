@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build:bps": "ts-node -O '{\"module\":\"CommonJS\"}' src/scrape-bps.ts",
-    "build:data": "ts-node -O '{\"module\":\"CommonJS\"}' src/build-data.ts",
+    "build:data": "python3 build-data.py",
     "build": "vite build && cp -R data dist/data/"
   },
   "dependencies": {
