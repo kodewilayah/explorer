@@ -50,7 +50,6 @@
 
 <script lang="ts" setup>
   import { defineProps, ref, reactive, watchEffect } from 'vue';
-  import { useTitle } from '@vueuse/core';
   import { useDagriData } from '../dagri';
 
   const props = defineProps({
@@ -62,8 +61,6 @@
   const childrenCodes = reactive<string[]>([]);
   const { isLoading, regionMap, findRegion } = useDagriData();
 
-  const title = useTitle();
-
   watchEffect(() => {
     if (!isLoading.value) {
       if (props.code) {
@@ -71,7 +68,7 @@
         region.value = findRegion(props.code);
         childrenCodes.splice(0);
         childrenCodes.push(...region.value.childrenCodes);
-        title.value = `${region.value.prefix} ${region.value.name}`;
+        document.title = `${region.value.prefix} ${region.value.name}`;
       }
     }
   });

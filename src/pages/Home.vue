@@ -44,10 +44,8 @@
 </template>
 
 <script lang="ts" setup>
-  import { useTitle } from '@vueuse/core';
-  import VLabel from '../components/VLabel.vue';
 
-  useTitle('Kode Wilayah Indonesia');
+  document.title = 'Kode Wilayah Indonesia';
 
   const clusters: [number, string][][] = [
     [
