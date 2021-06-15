@@ -8,7 +8,7 @@
     </h1>
   </header>
   <div v-if="isLoading" class="py-9 text-gray-400 text-3xl font-light">
-    Loading...
+    <v-spinner></v-spinner>
   </div>
   <div v-else class="mb-8">
     <div class="mt-8 mb-4">
@@ -51,6 +51,7 @@
 <script lang="ts" setup>
   import { defineProps, ref, reactive, watchEffect } from 'vue';
   import { useDagriData } from '../dagri';
+  import VSpinner from '../components/VSpinner.vue'
 
   const props = defineProps({
     code: String

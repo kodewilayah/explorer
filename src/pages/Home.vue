@@ -44,7 +44,7 @@
 </template>
 
 <script lang="ts" setup>
-
+  import VLabel from '../components/VLabel.vue';
   document.title = 'Kode Wilayah Indonesia';
 
   const clusters: [number, string][][] = [
