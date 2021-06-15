@@ -12,13 +12,13 @@
   </div>
   <div v-else class="mb-8">
     <div class="mt-8 mb-4">
-      <router-link to="/" v-if="region.level === 1" class="text-red-700">
+      <router-link to="/" v-if="!parent" class="text-red-700">
         &larr; Indonesia
       </router-link>
-      <router-link :to="region.parentCode" v-else class="text-red-700">
+      <router-link :to="region?.parentCode" v-else class="text-red-700">
         &larr;
-        {{findRegion(region.parentCode).prefix}}
-        {{findRegion(region.parentCode).name}}
+        {{parent.prefix}}
+        {{parent.name}}
       </router-link>
     </div>
     <h1 class="mb-8">
@@ -27,18 +27,18 @@
         {{region.name}}
       </span>
     </h1>
-    <template v-if="childrenCodes.length > 0">
-      <h1 class="text-gray-400 mb-2">Daerah Tingkat {{region.level + 1}} di bawah {{region.prefix}} {{region.name}}:</h1>
+    <template v-if="children.length > 0">
+      <h1 class="text-gray-400 mb-2">Daerah Tingkat {{(region?.level || 0) + 1}} di bawah {{region?.prefix}} {{region?.name}}:</h1>
       <table class="table-auto w-full -mx-2">
         <tbody>
-          <tr v-for="r in region.childrenCodes" :key="r"  class="hover:bg-gray-100">
+          <tr v-for="r in children" :key="r.code"  class="hover:bg-gray-100">
             <td class="w-14 p-2 font-mono text-gray-300 text-sm">
-              <router-link :to="`/${r}`">{{r}}</router-link>
+              <router-link :to="r.code">{{r.code}}</router-link>
             </td>
             <td class="p-2 text-red-700">
-              <router-link :to="`/${r}`">
-                <span class="opacity-70">{{findRegion(r).prefix}}</span>
-                {{findRegion(r).name}}
+              <router-link :to="r.code">
+                <span class="opacity-70">{{r.prefix}}</span>
+                {{r.name}}
               </router-link>
             </td>
           </tr>
@@ -49,28 +49,25 @@
 </template>
 
 <script lang="ts" setup>
-  import { defineProps, ref, reactive, watchEffect } from 'vue';
-  import { useDagriData } from '../dagri';
+  import { defineProps, computed, reactive, watchEffect } from 'vue';
+  import { useDagriData, useRegion } from '../dagri';
+  import type { IRegion } from '../lib/region'
   import VSpinner from '../components/VSpinner.vue'
 
   const props = defineProps({
     code: String
   });
 
-  const name = ref<string | undefined>('');
-  const region = ref<any>();
-  const childrenCodes = reactive<string[]>([]);
-  const { isLoading, regionMap, findRegion } = useDagriData();
+  const state = useDagriData();
+  const region = useRegion(() => props.code);
+  const name = computed(() => region.name);
+  const parent = computed(() => region.parent);
+  const children = computed(() => region.children);
+  const isLoading = computed(() => state.isLoading)
 
   watchEffect(() => {
-    if (!isLoading.value) {
-      if (props.code) {
-        name.value = regionMap.get(props.code || '')?.name;
-        region.value = findRegion(props.code);
-        childrenCodes.splice(0);
-        childrenCodes.push(...region.value.childrenCodes);
-        document.title = `${region.value.prefix} ${region.value.name}`;
-      }
+    if (!state.isLoaded) {
+      document.title = `${region.prefix} ${region.name}`;
     }
   });
 
