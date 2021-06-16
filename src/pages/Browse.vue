@@ -28,7 +28,7 @@
       </span>
     </h1>
     <template v-if="region.level < 4">
-      <h1 class="text-gray-400 mb-2">Daerah Tingkat {{(region.level || 0) + 1}} di bawah {{region?.prefix}} {{region?.name}}:</h1>
+      <h1 class="text-gray-400 mb-2">{{childrenHeading}} di bawah {{region?.prefix}} {{region?.name}}:</h1>
       <template v-if="children.loading">
         <v-spinner></v-spinner>
       </template>
@@ -39,9 +39,9 @@
               <td class="w-14 p-2 font-mono text-gray-300 text-sm">
                 <router-link :to="r.code">{{r.code}}</router-link>
               </td>
-              <td class="p-2 text-red-700">
+              <td class="p-2 text-red-700 group">
                 <router-link :to="r.code">
-                  <span class="opacity-70">{{r.prefix}}</span>
+                  <span class="text-red-400">{{r.prefix}}</span>
                   {{r.name}}
                 </router-link>
               </td>
@@ -56,7 +56,8 @@
 <script lang="ts" setup>
   import { defineProps, computed, watchEffect } from 'vue';
   import { useRegion } from '../lib/region';
-  import VSpinner from '../components/VSpinner.vue'
+  import VSpinner from '../components/VSpinner.vue';
+  import { codeToChildren } from '../lib/store';
 
   const props = defineProps({
     code: String
@@ -66,7 +67,18 @@
   const name = computed(() => region.name);
   const parent = computed(() => region.parent);
   const children = computed(() => region.children);
-  const isLoading = computed(() => region.loading)
+  const isLoading = computed(() => region.loading);
+
+  const childrenHeading = computed(() => {
+    if (region.level === 1)
+      return 'Kabupaten/kota';
+    else if (region.level === 2)
+      return 'Kecamatan';
+    else if (region.level === 3)
+      return 'Kelurahan/desa';
+
+    return `Daerah Tingkat {region.level + 1}`;
+  })
 
   watchEffect(() => {
     if (!isLoading) {

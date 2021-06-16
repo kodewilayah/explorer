@@ -84,9 +84,6 @@ export function useRegion(getCode: () => string | undefined): UnwrapRef<Expanded
 
   watchEffect(async () => {
     const code = getCode() || '';
-    if (region.code === code) {
-      return;
-    }
 
     // load the Region itself
     await region.load(async () => {

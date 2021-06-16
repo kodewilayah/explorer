@@ -9,7 +9,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      component: Home
+      component: Home,
+      props: {
+        heroContent: document.getElementById('app')?.innerHTML
+      }
     },
     {
       path: '/:code',

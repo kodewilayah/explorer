@@ -44,11 +44,12 @@ export class LoadableArray<T> extends Array<T> {
   }
 
   async load(loader: Loader<Iterable<T>>) {
-    this.purge();
-    this.push(...await resolveLoader(
+    const resolved = await resolveLoader(
       loader,
       (loading, loaded) => this.setLoadingState(loading, loaded)
-    ))
+    );
+    this.purge();
+    this.push(...resolved)
   }
 }
 
