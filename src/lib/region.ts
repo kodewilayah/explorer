@@ -1,29 +1,18 @@
-import { reactive } from 'vue';
+// Region objects and accessors
 
-export function getParentCode(code: string) {
-  let parentCodeLength = 0;
-  if (code.length === 5)
-    parentCodeLength = 2;
-  else if (code.length === 8)
-    parentCodeLength = 5;
-  else if (code.length === 13)
-    parentCodeLength = 8;
+import { reactive, watchEffect } from 'vue';
+import type { UnwrapRef } from 'vue';
+import { getParentCode } from './dagri';
+import { codeToChildren, codeToName, fetchRegion, fetchRegionChildren } from './store';
+import { LoadableArray, Loader, resolveLoader } from './loadable';
 
-  return code.substr(0, parentCodeLength);
-}
-
-export interface IRegion {
-  code: string;
-  parentCode: string;
-  childrenCodes: string[];
-  level: number;
-  prefix: string;
-  name: string;
-}
+export { getParentCode } from './dagri';
 
 export class Region {
-  _code: string = '';
-  _name: string = '';
+  _code = '';
+  _name = '';
+  loading = false;
+  loaded = false;
 
   constructor(code: string = '', name: string = '') {
     this.setSource(code, name);
@@ -32,6 +21,16 @@ export class Region {
   setSource(code: string, name: string) {
     this._code = code;
     this._name = name;
+    this.loaded = true;
+  }
+
+  async load(loader: Loader<[string, string]>) {
+    const [code, name] = await resolveLoader(loader, (loading, loaded) => {
+      this.loading = loading;
+      this.loaded = loaded;
+    });
+
+    this.setSource(code, name);
   }
 
   get code(): string {
@@ -170,8 +169,8 @@ export class Region {
 }
 
 export class ExpandedRegion extends Region {
-  _parent: Region = reactive(new Region());
-  _children: Region[] = reactive([]);
+  _parent = new Region();
+  _children = new LoadableArray<Region>();
 
   get children() {
     return this._children;
@@ -197,4 +196,54 @@ export class ExpandedRegion extends Region {
   setParentSource(code: string = '', name: string = '') {
     this._parent.setSource(code, name);
   }
+
+  async loadParent(loader: Loader<[string, string]>) {
+    this._parent.load(loader);
+  }
+}
+
+export function useRegion(getCode: () => string | undefined): UnwrapRef<ExpandedRegion> {
+  const region = reactive(new ExpandedRegion());
+
+  watchEffect(async () => {
+    const code = getCode() || '';
+    if (region.code === code) {
+      return;
+    }
+
+    // load the Region itself
+    await region.load(async () => {
+      await fetchRegion(code);
+      const name = codeToName.get(code) || '';
+
+      return [code, name];
+    });
+
+    const parentCode = region.parentCode;
+    if (parentCode) {
+      region.loadParent(async () => {
+        await fetchRegion(parentCode);
+        const parentName = codeToName.get(parentCode) || '';
+        return [parentCode, parentName]
+      })
+    } else {
+      region.setParentSource('', '');
+    }
+
+    await region.children.load(async () => {
+      await fetchRegionChildren(code);
+
+      const childrenCodes = codeToChildren.get(code);
+      if (childrenCodes) {
+        return childrenCodes.map((code) => {
+          const name = codeToName.get(code);
+          return new Region(code, name);
+        });
+      } else {
+        return [];
+      }
+    });
+  })
+
+  return region;
 }

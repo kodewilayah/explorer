@@ -1,10 +1,13 @@
-import { ref, reactive, watchEffect } from 'vue';
-import type { UnwrapRef } from 'vue';
-import { Region, getParentCode, ExpandedRegion } from './lib/region';
-import type { IRegion } from './lib/region';
+// The store where we keep region data in minimal format
+
+import { reactive } from "vue";
+import { getParentCode } from "./dagri";
+import type { LoadingStateSetter } from './loadable'
 
 export const codeToName = reactive(new Map<string, string>());
 export const codeToChildren = reactive(new Map<string, string[]>());
+
+const state = reactive({ isLoaded: false });
 
 function loadRegion(code: string, name: string) {
   codeToName.set(code, name);
@@ -55,45 +58,18 @@ async function loadCsv() {
   }
 }
 
-export function useDagriData() {
-  const state = reactive({
-    isLoading: false,
-    isLoaded: false
-  });
-  if (!state.isLoaded) {
-    state.isLoading = true;
-    loadCsv().then(() => {
-      state.isLoading = false;
-      state.isLoaded = true;
-    });
+export async function fetchRegion(code: string, setLoadingState: LoadingStateSetter = () => {}): Promise<void> {
+  if (state.isLoaded) {
+    setLoadingState(false, true);
+    return;
   }
 
-  return state;
+  setLoadingState(true, false);
+  await loadCsv();
+  setLoadingState(false, true);
+  state.isLoaded = true;
 }
 
-export function useRegion(getCode: () => string | undefined): UnwrapRef<ExpandedRegion> {
-  const region = reactive(new ExpandedRegion());
-
-  watchEffect(() => {
-    const code = getCode() || '';
-    const name = codeToName.get(code) || '';
-    region.setSource(code, name);
-
-    const parentCode = region.parentCode;
-    const parentName = codeToName.get(parentCode);
-    region.setParentSource(parentCode, parentName);
-
-    const childrenCodes = codeToChildren.get(code);
-    console.dir(childrenCodes);
-    if (childrenCodes) {
-      region.setChildren(childrenCodes.map((code) => {
-        const name = codeToName.get(code);
-        return new Region(code, name);
-      }))
-    } else {
-      region.setChildren(null);
-    }
-  })
-
-  return region;
+export async function fetchRegionChildren(parentCode: string, setLoadingState: LoadingStateSetter = () => {}) {
+  return fetchRegion(parentCode, setLoadingState)
 }

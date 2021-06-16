@@ -27,46 +27,49 @@
         {{region.name}}
       </span>
     </h1>
-    <template v-if="children.length > 0">
-      <h1 class="text-gray-400 mb-2">Daerah Tingkat {{(region?.level || 0) + 1}} di bawah {{region?.prefix}} {{region?.name}}:</h1>
-      <table class="table-auto w-full -mx-2">
-        <tbody>
-          <tr v-for="r in children" :key="r.code"  class="hover:bg-gray-100">
-            <td class="w-14 p-2 font-mono text-gray-300 text-sm">
-              <router-link :to="r.code">{{r.code}}</router-link>
-            </td>
-            <td class="p-2 text-red-700">
-              <router-link :to="r.code">
-                <span class="opacity-70">{{r.prefix}}</span>
-                {{r.name}}
-              </router-link>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <template v-if="region.level < 4">
+      <h1 class="text-gray-400 mb-2">Daerah Tingkat {{(region.level || 0) + 1}} di bawah {{region?.prefix}} {{region?.name}}:</h1>
+      <template v-if="children.loading">
+        <v-spinner></v-spinner>
+      </template>
+      <template v-else>
+        <table class="table-auto w-full -mx-2">
+          <tbody>
+            <tr v-for="r in children" :key="r.code"  class="hover:bg-gray-100">
+              <td class="w-14 p-2 font-mono text-gray-300 text-sm">
+                <router-link :to="r.code">{{r.code}}</router-link>
+              </td>
+              <td class="p-2 text-red-700">
+                <router-link :to="r.code">
+                  <span class="opacity-70">{{r.prefix}}</span>
+                  {{r.name}}
+                </router-link>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </template>
     </template>
   </div>
 </template>
 
 <script lang="ts" setup>
-  import { defineProps, computed, reactive, watchEffect } from 'vue';
-  import { useDagriData, useRegion } from '../dagri';
-  import type { IRegion } from '../lib/region'
+  import { defineProps, computed, watchEffect } from 'vue';
+  import { useRegion } from '../lib/region';
   import VSpinner from '../components/VSpinner.vue'
 
   const props = defineProps({
     code: String
   });
 
-  const state = useDagriData();
   const region = useRegion(() => props.code);
   const name = computed(() => region.name);
   const parent = computed(() => region.parent);
   const children = computed(() => region.children);
-  const isLoading = computed(() => state.isLoading)
+  const isLoading = computed(() => region.loading)
 
   watchEffect(() => {
-    if (!state.isLoaded) {
+    if (!isLoading) {
       document.title = `${region.prefix} ${region.name}`;
     }
   });
