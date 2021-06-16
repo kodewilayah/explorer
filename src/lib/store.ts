@@ -1,11 +1,12 @@
 // The store where we keep region data in minimal format
 
 import { reactive } from "vue";
-import { getParentCode } from "./dagri";
+import { getLevel, getParentCode } from "./dagri";
 import type { LoadingStateSetter } from './loadable'
 
 export const codeToName = reactive(new Map<string, string>());
-export const codeToChildren = reactive(new Map<string, string[]>());
+export const codeToChildren = reactive(new Map<string, Set<string>>());
+export const loadedSet = reactive(new Set<string>());
 
 const state = reactive({ isLoaded: false });
 
@@ -15,15 +16,15 @@ function loadRegion(code: string, name: string) {
   const parentCode = getParentCode(code);
   if (parentCode) {
     if (!codeToChildren.get(parentCode)) {
-      codeToChildren.set(parentCode, []);
+      codeToChildren.set(parentCode, new Set());
     }
 
-    codeToChildren.get(parentCode)?.push(code)
+    codeToChildren.get(parentCode)?.add(code)
   }
 }
 
-async function loadCsv() {
-  const res = await fetch('/data/dagri2019-sparse.tsv');
+async function loadCsv(variant: string = 'root') {
+  const res = await fetch('/data/dagri2019/' + variant + '.tsv');
   const text = await res.text();
 
   let previousCode1 = '';
@@ -59,17 +60,37 @@ async function loadCsv() {
 }
 
 export async function fetchRegion(code: string, setLoadingState: LoadingStateSetter = () => {}): Promise<void> {
-  if (state.isLoaded) {
+  const level = getLevel(code);
+  let variant = 'root'
+  if (level > 2) {
+    variant = code.substr(0, 2);
+  }
+
+  if (loadedSet.has(variant)) {
     setLoadingState(false, true);
     return;
   }
 
   setLoadingState(true, false);
-  await loadCsv();
+  await loadCsv(variant);
   setLoadingState(false, true);
-  state.isLoaded = true;
+  loadedSet.add(variant);
 }
 
 export async function fetchRegionChildren(parentCode: string, setLoadingState: LoadingStateSetter = () => {}) {
-  return fetchRegion(parentCode, setLoadingState)
+  const level = getLevel(parentCode);
+  let variant = 'root'
+  if (level > 1) {
+    variant = parentCode.substr(0, 2);
+  }
+
+  if (loadedSet.has(variant)) {
+    setLoadingState(false, true);
+    return;
+  }
+
+  setLoadingState(true, false);
+  await loadCsv(variant);
+  setLoadingState(false, true);
+  loadedSet.add(variant);
 }

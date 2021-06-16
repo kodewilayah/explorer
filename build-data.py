@@ -2,11 +2,6 @@ import csv
 import re
 import requests
 
-source_url = 'https://github.com/kodewilayah/permendagri-72-2019/raw/main/dist/base.csv'
-output_path = './public/data/dagri2019-sparse.tsv'
-
-previous_code = ''
-
 
 def parse_line(line):
     global previous_code
@@ -14,6 +9,10 @@ def parse_line(line):
     code: str
     name: str
     code, name = line
+
+    output_keys = [code[0:2]]
+    if len(code) <= 5:
+        output_keys.append('root')
 
     # sanitise name & make code shorter
     if len(code) == 2:
@@ -41,12 +40,35 @@ def parse_line(line):
     elif len(code) == 13:
         code = code[9:13]
 
-    return code, name
+    return code, name, output_keys
 
 
-with requests.Session() as session, open(output_path, 'w') as output:
-    response = session.get(source_url, stream=True)
-    reader = csv.reader(response.iter_lines(decode_unicode=True))
-    for line in reader:
-        code, name = parse_line(line)
-        output.write(f'{code}\t{name}\n')
+source_url = 'https://github.com/kodewilayah/permendagri-72-2019/raw/main/dist/base.csv'
+output_path = './public/data/dagri2019/'
+
+prov_codes = ['root',
+              '11', '12', '13', '16', '14', '15', '17', '18', '19', '21',
+              '31', '32', '33', '34', '35', '36',
+              '51', '52', '53',  '61', '62', '63', '64', '65',
+              '71', '72', '73', '74', '75', '76',
+              '81', '82', '91', '92']
+
+output = dict()
+
+for code in prov_codes:
+    output[code] = open(output_path + code + '.tsv', 'w')
+
+response = requests.get(source_url, stream=True)
+reader = csv.reader(response.iter_lines(decode_unicode=True))
+
+for line in reader:
+    code, name, output_keys = parse_line(line)
+    output_line = f'{code}\t{name}\n'
+    for key in output_keys:
+        output[key].write(output_line)
+
+# close handles
+response.close()
+
+for handle in output.values():
+    handle.close()

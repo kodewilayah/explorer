@@ -1,0 +1,541 @@
+65	Kalimantan Utara
+.01	Bulungan
+:01	Tanjung Palas
+1001	Tanjung Palas Hulu
+1002	Tanjung Palas Tengah
+1003	Tanjung Palas Hilir
+1004	Karang Anyar
+2005	Gunung Putih
+2006	Pejalin
+2007	Antutan
+2008	Teras Baru
+2009	Teras Nawang
+:02	Tanjung Palas Barat
+2001	Long Beluah
+2002	Long Sam
+2003	Mara I
+2004	Mara Hilir
+2005	Long Pari
+:03	Tanjung Palas Utara
+2001	Karang Agung
+2002	Pimping
+2003	Panca Agung
+2004	Ruhui Rahayu
+2005	Ardi Mulyo
+2006	Kelubir
+:04	Tanjung Palas Timur
+2001	Tanah Kuning
+2002	Mangkupadi
+2003	Sajau
+2004	Wonomulyo
+2005	Tanjung Agung
+2006	Binai
+2007	Sajau Hilir
+2008	Pura Sajau
+:05	Tanjung Selor
+1001	Tanjung Selor Hulu
+1002	Tanjung Selor Hilir
+2003	Jelarai Selor
+2004	Gunung Seriang
+2005	Bumi Rahayu
+2006	Gunung Sari
+2007	Apung
+1008	Tanjung Selor Timur
+2009	Tengkapak
+:06	Tanjung Palas Tengah
+2001	Salimbatu
+2002	Silva Rahayu
+2003	Tanjung Buka
+:07	Peso
+2001	Lepak Aru
+2002	Long Lasan
+2003	Long Peso
+2004	Long Bia
+2005	Muara Pangean
+2006	Long Lian
+2007	Long Pelaah
+2008	Long Lejuh
+2009	Long Pelban
+2010	Long Buang
+:08	Peso Hilir
+2001	Long Tungu
+2002	Long Bang
+2003	Long Telenjau
+2004	Naha Aya
+2005	Long Lembu
+2006	Long Bang Hulu
+:09	Sekatak
+2001	Sekatak Buji
+2002	Paru Abang
+2003	Bunau
+2004	Ujang
+2005	Tenggiling
+2006	Kelembunan
+2007	Turung
+2008	Terindak
+2009	Kelising
+2010	Ambalat
+2011	Keriting
+2012	Kendari
+2013	Bambang
+2014	Maritam
+2015	Pentian
+2016	Punan Dulau
+2017	Kelincauan
+2018	Bekiliu
+2019	Sekatak Bengara
+2020	Pungit
+2021	Anjar Arip
+2022	Liagu
+:10	Bunyu
+2001	Bunyu Barat
+2002	Bunyu Selatan
+2003	Bunyu Timur
+.02	Malinau
+:01	Mentarang
+2001	Long Gafid
+2002	Long Bisai
+2003	Temalang
+2004	Long Liku
+2005	Pulau Sapi
+2006	Paking
+2007	Lidung Kemenci
+2008	Mentarang Baru
+2009	Harapan Maju
+:02	Malinau Kota
+2001	Batu Lidung
+2002	Malinau Kota
+2003	Pelita Kanaan
+2004	Malinau Hulu
+2005	Malinau Hilir
+2006	Tanjung Keranjang
+:03	Pujungan
+2001	Long Pujungan
+2002	Long Ketaman
+2003	Long Pua
+2004	Long Lame
+2005	Long Jelet
+2006	Long Aran
+2007	Long Paliran
+2008	Long Bena
+2009	Long Belaka Pitau
+:04	Kayan Hilir
+2001	Data Dian
+2002	Long Pipa
+2003	Long Sule
+2004	Sungai Anai
+2005	Long Metun
+:05	Kayan Hulu
+2001	Long Nawang
+2002	Nawang Baru
+2003	Long Temuyat
+2004	Long Betaoh
+2005	Long Payau
+:06	Malinau Selatan
+2001	Bila Bekayuk
+2002	Long Loreh
+2003	Langap
+2004	Laban Nyarit
+2005	Nunuk Tanah Kibang
+2006	Pelencau
+2007	Paya Seturan
+2008	Punan Rian
+2009	Sengayan
+:07	Malinau Utara
+2001	Kaliamok
+2002	Luso
+2003	Malinau Seberang
+2004	Putat
+2005	Salap
+2006	Seruyung
+2007	Respen Tubu
+2008	Belayan
+2009	Sembuak Warod
+2010	Lubak Manis
+2011	Kelapis
+2012	Semengaris
+:08	Malinau Barat
+2001	Long Bila
+2002	Long Kenipe
+2003	Punan Bengalun
+2004	Sesua
+2005	Sentaban
+2006	Tanjung Lapang
+2007	Taras
+2008	Kuala Lapang
+2009	Sempayang
+:09	Sungai Boh
+2001	Dumu Mahak
+2002	Long Lebusan
+2003	Mahak Baru
+2004	Long Top
+2005	Agung Baru
+2006	Data Baru
+:10	Kayan Selatan
+2001	Long Ampung
+2002	Long Uro
+2003	Lidung Payau
+2004	Sungai Barang
+2005	Metulang
+:11	Bahau Hulu
+2001	Long Uli
+2002	Long Alango
+2003	Long Berini
+2004	Long Tebulo
+2005	Apau Ping
+2006	Long Kemuat
+:12	Mentarang Hulu
+2001	Lung Fala
+2002	Lung Kebinu
+2003	Lung Mekatip
+2004	Lung Simau
+2005	Lung Barang
+2006	Lung Sulit
+2007	Lung Semamu
+:13	Malinau Selatan Hilir
+2001	Setulang
+2002	Setarap
+2003	Punan Setarap
+2004	Batu Kajang
+2005	Gong Solok
+2006	Punan Gong Solok
+2007	Long Adiu
+2008	Punan Long Adiu
+:14	Malinau Selatan Hulu
+2001	Long Lake
+2002	Punan Mirau
+2003	Long Rat
+2004	Halanga
+2005	Metut
+2006	Long Jalan
+2007	Nahakramo
+2008	Tanjung Nanga
+:15	Sungai Tubu
+2001	Long Nyau
+2002	Long Titi
+2003	Long Ranau
+2004	Rian Tubu
+2005	Long Pada
+.03	Nunukan
+:01	Sebatik
+2001	Tanjungkarang
+2002	Balansiku
+2003	Sungai Manurung
+2004	Padaidi
+:02	Nunukan
+1001	Nunukan Timur
+1002	Nunukan Barat
+1003	Nunukan Utara
+2004	Binusan
+1005	Nunukan Tengah
+:03	Sembakung
+2001	Tagul
+2002	Lubakan
+2003	Atap
+2004	Manuk Bungkul
+2005	Tujung
+2006	Pagar
+2007	Labuk
+2008	Butas Bagu
+2009	Pelaju
+2010	Tepian
+:04	Lumbis
+2001	Deralon
+2002	Liang
+2003	Dabulon
+2004	Taluan
+2005	Podong
+2006	Patal I
+2007	Siawang
+2008	Sapuyan
+2009	Nainsid
+2010	Sasibu
+2011	Saludan
+2012	Semalat
+2013	Libang
+2014	Sedongon
+2015	Tanjung Hilir
+2016	Sumalumung
+2017	Lintong
+2018	Pulu Bulawan
+2019	Tanjung Hulu
+2020	Patal II
+2021	Pa'loo
+2022	Sangkub
+2023	Tubus
+2024	Likos
+2025	Bulan-Bulan
+2026	Kalampising
+2027	Pa'lemumut
+2028	Mansalong
+:05	Krayan
+2002	Pa' Padi
+2003	Cinglat
+2022	Liang Butan
+2029	Pa' Rupai
+2030	Ba Sikor
+2031	Pa' Nado
+2032	Buduk Kinangan
+2033	Liang Tuer
+2034	Buduk Tumu
+2035	Long Berayang
+2036	Pa' Api
+2037	Pa' Sire
+2038	Wa' Yanud
+2039	Long Nawang
+2040	Long Katung
+2041	Long Bawan
+2044	Long Matung
+2045	Long Rupan
+2046	Liang Biadung
+2047	Wa' Laya
+2048	Pa' Matung
+2049	Pa' Terutun
+2065	Pa' Putuk
+:06	Sebuku
+2001	Pembeliangan
+2002	Apas
+2003	Kunyit
+2004	Tetaban
+2005	Kekayap
+2006	Bebanas
+2007	Lulu
+2008	Sujau
+2009	Melasu Baru
+2010	Harapan
+:07	Krayan Selatan
+2001	Long Pasia
+2002	Liang Lunuk
+2003	Pa' Ibang
+2004	Pa' Amai
+2005	Pa' Kaber
+2006	Pa' Tera
+2007	Pa' Sing
+2009	Pa' Dalan
+2010	Long Birar
+2011	Pa' Upan
+2016	Long Budung
+2018	Long Pupung
+2020	Pa' Urang
+:08	Sebatik Barat
+2001	Liang Bunyu
+2002	Binalawan
+2003	Setabu
+2004	Bambangan
+:09	Nunukan Selatan
+1001	Selisun
+1002	Nunukan Selatan
+1003	Mansapa
+1004	Tanjung Harapan
+:10	Sebatik Timur
+2001	Sungai Nyamuk
+2002	Tanjung Harapan
+2003	Bukit Aru Indah
+2004	Tanjung Aru
+:11	Sebatik Utara
+2001	Sungai Pancang
+2002	Lapri
+2003	Seberang
+:12	Sebatik Tengah
+2001	Sungai Limau
+2002	Maspul
+2003	Aji Kuning
+2004	Bukit Harapan
+:13	Sei Menggaris
+2001	Srinanti
+2002	Tabur Lestari
+2003	Samaenre Semaja
+2004	Sekaduyan Taka
+:14	Tulin Onsoi
+2001	Sanur
+2002	Makmur
+2003	Semunad
+2004	Sekikilan
+2005	Kalunsayan
+2006	Tembalang
+2007	Salang
+2008	Tinampak I
+2009	Tinampak II
+2010	Naputi
+2011	Tau Baru
+2012	Balatikon
+:15	Lumbis Ogong
+2001	Payang
+2002	Suyadon
+2003	Bulu Mengolom
+2004	Tukulon
+2005	Ubol Sulok
+2006	Batung
+2007	Ubol Alung
+2008	Nansapan
+2009	Samunti
+2010	Semata
+2011	Sungoi
+2012	Salan
+2013	Sinampila I
+2014	Paluan
+2015	Sedalit
+2016	Tambalang Hilir
+2017	Tadungus
+2018	Sinampila II
+2019	Kalambuku
+2020	Jukup
+2021	Long Bulu
+2022	Sumentobol
+2023	Linsayung
+2024	Tumantalas
+2025	Sanal
+2026	Limpakon
+2027	Labuk
+2028	Nantukidan
+2029	Labang
+2030	Sumantipal
+2031	Ngawol
+2032	Bululaun Hilir
+2033	Lagas
+2034	Panas
+2035	Langgason
+2036	Tambalang Hulu
+2037	Kuyo
+2038	Bokok
+2039	Tau Lumbis
+2040	Bululaun Hulu
+2041	Kalisun
+2042	Mamasin
+2043	Sibalu
+2044	Duyan
+2045	Tuntulibing
+2046	Tetagas
+2047	Kabungolor
+2048	Lipaga
+2049	Tantalujuk
+:16	Sembakung Atulai
+2001	Lubok Buat
+2002	Katul
+2003	Mambulu
+2004	Pagaluyon
+2005	Saduman
+2006	Tulang
+2007	Sabuluan
+2008	Pulau Keras
+2009	Liuk Bulu
+2010	Binanun
+:17	Krayan Tengah
+2001	Tang Paye
+2002	Long Rungan
+2003	Long Kelupan
+2004	Long Padi
+2005	Tang Badui
+2006	Binuang
+2007	Long Mutan
+2008	Pa' Milau
+2009	Ba' Liku
+2010	Long Rian
+2011	Pa' Yalau
+:18	Krayan Timur
+2001	Pa' Betung
+2002	Long Sepayang
+2003	Pa' Pawan
+2004	Pa' Melade
+2005	Pa' Kebuan
+2006	Pa' Umung
+2007	Pa' Rangeb
+2008	Long Umung
+2009	Long Tenem
+2010	Long Nuat
+2011	Pa' Pala
+2012	Sinar Baru
+2013	Pa' Lidung
+2014	Pa' Raye
+2015	Bungayan
+2016	Wa' Yagung
+2017	Kampung Baru
+:19	Krayan Barat
+2001	Pa' Mulak
+2002	Long Puak
+2003	Long Mangan
+2004	Buduk Kubul
+2005	Long Kabid
+2006	Pa' Inan
+2007	Lembudud
+2008	Long Tugul
+2009	Pa' Butal
+2010	Pa' Delung
+2011	Pa' Urud
+2012	Pa' Kemut
+2013	Pa' Kidang
+2014	Lembada
+2015	Pa' Payak
+2016	Pa' Pirit
+2017	Liang Aliq
+2018	Sembudud
+2019	Liang Turan
+2020	Liang Bua
+2021	Lepatar
+2022	Pa' Mering
+2023	Pa' Pani
+2024	Pa' Lutut
+2025	Ma' Libu
+.04	Tana Tidung
+:01	Sesayap
+2001	Tideng Pale
+2002	Limbu Sedulun
+2003	Sebidai
+2004	Sedulun
+2005	Tideng Pale Timur
+2006	Gunawan
+2007	Sebawang
+:02	Sesayap Hilir
+2001	Sesayap
+2002	Sengkong
+2003	Bebatu
+2004	Bandan Bikis
+2005	Sepala Dalung
+2006	Seludau
+2007	Menjelutung
+2008	Sesayap Selor
+:03	Tana Lia
+2001	Tanah Merah
+2002	Tengku Dacing
+2003	Sambungan
+2004	Tanah Merah Barat
+2005	Sambungan Selatan
+:04	Betayau
+2001	Buong Baru
+2002	Bebakung
+2003	Kujau
+2004	Mendupo
+2005	Maning
+2006	Periuk
+:05	Muruk Rian
+2001	Seputuk
+2002	Rian
+2003	Balayan Ari
+2004	Rian Rayo
+2005	Kapuak
+2006	Sapari
+.71	Tarakan
+:01	Tarakan Barat
+1001	Karang Anyar
+1002	Karang Rejo
+1003	Karang Anyar Pantai
+1004	Karang Balik
+1005	Karang Harapan
+:02	Tarakan Tengah
+1001	Kampung I Skip
+1002	Pamusian
+1003	Sebengkok
+1004	Selumit
+1005	Selumit Pantai
+:03	Tarakan Timur
+1001	Lingkas Ujung
+1002	Gunung Lingkas
+1003	Kampung Empat
+1004	Kampung Enam
+1005	Mamburungan
+1006	Pantai Amal
+1007	Mamburungan Timur
+:04	Tarakan Utara
+1001	Juata Laut
+1002	Juata Permai
+1003	Juata Kerikil

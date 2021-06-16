@@ -1,0 +1,548 @@
+11	Aceh
+.01	Aceh Selatan
+.02	Aceh Tenggara
+.03	Aceh Timur
+.04	Aceh Tengah
+.05	Aceh Barat
+.06	Aceh Besar
+.07	Pidie
+.08	Aceh Utara
+.09	Simeulue
+.10	Aceh Singkil
+.11	Bireuen
+.12	Aceh Barat Daya
+.13	Gayo Lues
+.14	Aceh Jaya
+.15	Nagan Raya
+.16	Aceh Tamiang
+.17	Bener Meriah
+.18	Pidie Jaya
+.71	Banda Aceh
+.72	Sabang
+.73	Lhokseumawe
+.74	Langsa
+.75	Subulussalam
+12	Sumatera Utara
+.01	Tapanuli Tengah
+.02	Tapanuli Utara
+.03	Tapanuli Selatan
+.04	Nias
+.05	Langkat
+.06	Karo
+.07	Deli Serdang
+.08	Simalungun
+.09	Asahan
+.10	Labuhanbatu
+.11	Dairi
+.12	Toba Samosir
+.13	Mandailing Natal
+.14	Nias Selatan
+.15	Pakpak Bharat
+.16	Humbang Hasundutan
+.17	Samosir
+.18	Serdang Bedagai
+.19	Batu Bara
+.20	Padang Lawas Utara
+.21	Padang Lawas
+.22	Labuhanbatu Selatan
+.23	Labuhanbatu Utara
+.24	Nias Utara
+.25	Nias Barat
+.71	Medan
+.72	Pematangsiantar
+.73	Sibolga
+.74	Tanjung Balai
+.75	Binjai
+.76	Tebing Tinggi
+.77	Padang Sidempuan
+.78	Gunungsitoli
+13	Sumatera Barat
+.01	Pesisir Selatan
+.02	Solok
+.03	Sijunjung
+.04	Tanah Datar
+.05	Padang Pariaman
+.06	Agam
+.07	Lima Puluh Kota
+.08	Pasaman
+.09	Kepulauan Mentawai
+.10	Dharmasraya
+.11	Solok Selatan
+.12	Pasaman Barat
+.71	Padang
+.72	Solok
+.73	Sawahlunto
+.74	Padang Panjang
+.75	Bukittinggi
+.76	Payakumbuh
+.77	Pariaman
+14	Riau
+.01	Kampar
+.02	Indragiri Hulu
+.03	Bengkalis
+.04	Indragiri Hilir
+.05	Pelalawan
+.06	Rokan Hulu
+.07	Rokan Hilir
+.08	Siak
+.09	Kuantan Singingi
+.10	Kepulauan Meranti
+.71	Pekanbaru
+.72	Dumai
+15	Jambi
+.01	Kerinci
+.02	Merangin
+.03	Sarolangun
+.04	Batanghari
+.05	Muaro Jambi
+.06	Tanjung Jabung Barat
+.07	Tanjung Jabung Timur
+.08	Bungo
+.09	Tebo
+.71	Jambi
+.72	Sungai Penuh
+16	Sumatera Selatan
+.01	Ogan Komering Ulu
+.02	Ogan Komering Ilir
+.03	Muara Enim
+.04	Lahat
+.05	Musi Rawas
+.06	Musi Banyuasin
+.07	Banyuasin
+.08	Ogan Komering Ulutimur
+.09	Ogan Komering Uluselatan
+.10	Ogan Ilir
+.11	Empat Lawang
+.12	Penukal Abab Lematangilir
+.13	Musi Rawas Utara
+.71	Palembang
+.72	Pagar Alam
+.73	Lubuk Linggau
+.74	Prabumulih
+17	Bengkulu
+.01	Bengkulu Selatan
+.02	Rejang Lebong
+.03	Bengkulu Utara
+.04	Kaur
+.05	Seluma
+.06	Muko Muko
+.07	Lebong
+.08	Kepahiang
+.09	Bengkulu Tengah
+.71	Bengkulu
+18	Lampung
+.01	Lampung Selatan
+.02	Lampung Tengah
+.03	Lampung Utara
+.04	Lampung Barat
+.05	Tulang Bawang
+.06	Tanggamus
+.07	Lampung Timur
+.08	Way Kanan
+.09	Pesawaran
+.10	Pringsewu
+.11	Mesuji
+.12	Tulang Bawang Barat
+.13	Pesisir Barat
+.71	Bandar Lampung
+.72	Metro
+19	Kepulauan Bangka Belitung
+.01	Bangka
+.02	Belitung
+.03	Bangka Selatan
+.04	Bangka Tengah
+.05	Bangka Barat
+.06	Belitung Timur
+.71	Pangkal Pinang
+21	Kepulauan Riau
+.01	Bintan
+.02	Karimun
+.03	Natuna
+.04	Lingga
+.05	Kepulauan Anambas
+.71	Batam
+.72	Tanjung Pinang
+31	DKI Jakarta
+.01	Kep. Seribu
+.71	Jakarta Pusat
+.72	Jakarta Utara
+.73	Jakarta Barat
+.74	Jakarta Selatan
+.75	Jakarta Timur
+32	Jawa Barat
+.01	Bogor
+.02	Sukabumi
+.03	Cianjur
+.04	Bandung
+.05	Garut
+.06	Tasikmalaya
+.07	Ciamis
+.08	Kuningan
+.09	Cirebon
+.10	Majalengka
+.11	Sumedang
+.12	Indramayu
+.13	Subang
+.14	Purwakarta
+.15	Karawang
+.16	Bekasi
+.17	Bandung Barat
+.18	Pangandaran
+.71	Bogor
+.72	Sukabumi
+.73	Bandung
+.74	Cirebon
+.75	Bekasi
+.76	Depok
+.77	Cimahi
+.78	Tasikmalaya
+.79	Banjar
+33	Jawa Tengah
+.01	Cilacap
+.02	Banyumas
+.03	Purbalingga
+.04	Banjarnegara
+.05	Kebumen
+.06	Purworejo
+.07	Wonosobo
+.08	Magelang
+.09	Boyolali
+.10	Klaten
+.11	Sukoharjo
+.12	Wonogiri
+.13	Karanganyar
+.14	Sragen
+.15	Grobogan
+.16	Blora
+.17	Rembang
+.18	Pati
+.19	Kudus
+.20	Jepara
+.21	Demak
+.22	Semarang
+.23	Temanggung
+.24	Kendal
+.25	Batang
+.26	Pekalongan
+.27	Pemalang
+.28	Tegal
+.29	Brebes
+.71	Magelang
+.72	Surakarta
+.73	Salatiga
+.74	Semarang
+.75	Pekalongan
+.76	Tegal
+34	Daerah Istimewa Yogyakarta
+.01	Kulon Progo
+.02	Bantul
+.03	Gunungkidul
+.04	Sleman
+.71	Yogyakarta
+35	Jawa Timur
+.01	Pacitan
+.02	Ponorogo
+.03	Trenggalek
+.04	Tulungagung
+.05	Blitar
+.06	Kediri
+.07	Malang
+.08	Lumajang
+.09	Jember
+.10	Banyuwangi
+.11	Bondowoso
+.12	Situbondo
+.13	Probolinggo
+.14	Pasuruan
+.15	Sidoarjo
+.16	Mojokerto
+.17	Jombang
+.18	Nganjuk
+.19	Madiun
+.20	Magetan
+.21	Ngawi
+.22	Bojonegoro
+.23	Tuban
+.24	Lamongan
+.25	Gresik
+.26	Bangkalan
+.27	Sampang
+.28	Pamekasan
+.29	Sumenep
+.71	Kediri
+.72	Blitar
+.73	Malang
+.74	Probolinggo
+.75	Pasuruan
+.76	Mojokerto
+.77	Madiun
+.78	Surabaya
+.79	Batu
+36	Banten
+.01	Pandeglang
+.02	Lebak
+.03	Tangerang
+.04	Serang
+.71	Tangerang
+.72	Cilegon
+.73	Serang
+.74	Tangerang Selatan
+51	Bali
+.01	Jembrana
+.02	Tabanan
+.03	Badung
+.04	Gianyar
+.05	Klungkung
+.06	Bangli
+.07	Karangasem
+.08	Buleleng
+.71	Denpasar
+52	Nusa Tenggara Barat
+.01	Lombok Barat
+.02	Lombok Tengah
+.03	Lombok Timur
+.04	Sumbawa
+.05	Dompu
+.06	Bima
+.07	Sumbawa Barat
+.08	Lombok Utara
+.71	Mataram
+.72	Bima
+53	Nusa Tenggara Timur
+.01	Kupang
+.02	Kab Timor Tengah Selatan
+.03	Timor Tengah Utara
+.04	Belu
+.05	Alor
+.06	Flores Timur
+.07	Sikka
+.08	Ende
+.09	Ngada
+.10	Manggarai
+.11	Sumba Timur
+.12	Sumba Barat
+.13	Lembata
+.14	Rote Ndao
+.15	Manggarai Barat
+.16	Nagekeo
+.17	Sumba Tengah
+.18	Sumba Barat Daya
+.19	Manggarai Timur
+.20	Sabu Raijua
+.21	Malaka
+.71	Kupang
+61	Kalimantan Barat
+.01	Sambas
+.02	Mempawah
+.03	Sanggau
+.04	Ketapang
+.05	Sintang
+.06	Kapuas Hulu
+.07	Bengkayang
+.08	Landak
+.09	Sekadau
+.10	Melawi
+.11	Kayong Utara
+.12	Kubu Raya
+.71	Pontianak
+.72	Singkawang
+62	Kalimantan Tengah
+.01	Kotawaringin Barat
+.02	Kotawaringin Timur
+.03	Kapuas
+.04	Barito Selatan
+.05	Barito Utara
+.06	Katingan
+.07	Seruyan
+.08	Sukamara
+.09	Lamandau
+.10	Gunung Mas
+.11	Pulang Pisau
+.12	Murung Raya
+.13	Barito Timur
+.71	Palangkaraya
+63	Kalimantan Selatan
+.01	Tanah Laut
+.02	Kotabaru
+.03	Banjar
+.04	Barito Kuala
+.05	Tapin
+.06	Hulu Sungai Selatan
+.07	Hulu Sungai Tengah
+.08	Hulu Sungai Utara
+.09	Tabalong
+.10	Tanah Bumbu
+.11	Balangan
+.71	Banjarmasin
+.72	Banjarbaru
+64	Kalimantan Timur
+.01	Paser
+.02	Kutai Kartanegara
+.03	Berau
+.07	Kutai Barat
+.08	Kutai Timur
+.09	Penajam Paser Utara
+.11	Mahakam Ulu
+.71	Balikpapan
+.72	Samarinda
+.74	Bontang
+65	Kalimantan Utara
+.01	Bulungan
+.02	Malinau
+.03	Nunukan
+.04	Tana Tidung
+.71	Tarakan
+71	Sulawesi Utara
+.01	Bolaang Mongondow
+.02	Minahasa
+.03	Kepulauan Sangihe
+.04	Kepulauan Talaud
+.05	Minahasa Selatan
+.06	Minahasa Utara
+.07	Minahasa Tenggara
+.08	Bolaang Mongondowutara
+.09	Kep. Siau Tagulandangbiaro
+.10	Bolaang Mongondowtimur
+.11	Bolaang Mongondowselatan
+.71	Manado
+.72	Bitung
+.73	Tomohon
+.74	Kotamobagu
+72	Sulawesi Tengah
+.01	Banggai
+.02	Poso
+.03	Donggala
+.04	Toli Toli
+.05	Buol
+.06	Morowali
+.07	Banggai Kepulauan
+.08	Parigi Moutong
+.09	Tojo Una Una
+.10	Sigi
+.11	Banggai Laut
+.12	Morowali Utara
+.71	Palu
+73	Sulawesi Selatan
+.01	Kepulauan Selayar
+.02	Bulukumba
+.03	Bantaeng
+.04	Jeneponto
+.05	Takalar
+.06	Gowa
+.07	Sinjai
+.08	Bone
+.09	Maros
+.10	Pangkajene Kepulauan
+.11	Barru
+.12	Soppeng
+.13	Wajo
+.14	Sidenreng Rappang
+.15	Pinrang
+.16	Enrekang
+.17	Luwu
+.18	Tana Toraja
+.22	Luwu Utara
+.24	Luwu Timur
+.26	Toraja Utara
+.71	Makassar
+.72	Pare Pare
+.73	Palopo
+74	Sulawesi Tenggara
+.01	Kolaka
+.02	Konawe
+.03	Muna
+.04	Buton
+.05	Konawe Selatan
+.06	Bombana
+.07	Wakatobi
+.08	Kolaka Utara
+.09	Konawe Utara
+.10	Buton Utara
+.11	Kolaka Timur
+.12	Konawe Kepulauan
+.13	Muna Barat
+.14	Buton Tengah
+.15	Buton Selatan
+.71	Kendari
+.72	Bau Bau
+75	Gorontalo
+.01	Gorontalo
+.02	Boalemo
+.03	Bone Bolango
+.04	Pahuwato
+.05	Gorontalo Utara
+.71	Gorontalo
+76	Sulawesi Barat
+.01	Pasangkayu
+.02	Mamuju
+.03	Mamasa
+.04	Polewali Mandar
+.05	Majene
+.06	Mamuju Tengah
+81	Maluku
+.01	Maluku Tengah
+.02	Maluku Tenggara
+.03	Kepulauan Tanimbar
+.04	Buru
+.05	Seram Bagian Timur
+.06	Seram Bagian Barat
+.07	Kepulauan Aru
+.08	Maluku Barat Daya
+.09	Buru Selatan
+.71	Ambon
+.72	Tual
+82	Maluku Utara
+.01	Halmahera Barat
+.02	Halmahera Tengah
+.03	Halmahera Utara
+.04	Halmahera Selatan
+.05	Kepulauan Sula
+.06	Halmahera Timur
+.07	Pulau Morotai
+.08	Pulau Taliabu
+.71	Ternate
+.72	Tidore Kepulauan
+91	Papua
+.01	Merauke
+.02	Jayawijaya
+.03	Jayapura
+.04	Nabire
+.05	Kepulauan Yapen
+.06	Biak Numfor
+.07	Puncak Jaya
+.08	Paniai
+.09	Mimika
+.10	Sarmi
+.11	Keerom
+.12	Kab Pegunungan Bintang
+.13	Yahukimo
+.14	Tolikara
+.15	Waropen
+.16	Boven Digoel
+.17	Mappi
+.18	Asmat
+.19	Supiori
+.20	Mamberamo Raya
+.21	Mamberamo Tengah
+.22	Yalimo
+.23	Lanny Jaya
+.24	Nduga
+.25	Puncak
+.26	Dogiyai
+.27	Intan Jaya
+.28	Deiyai
+.71	Jayapura
+92	Papua Barat
+.01	Sorong
+.02	Manokwari
+.03	Fak Fak
+.04	Sorong Selatan
+.05	Raja Ampat
+.06	Teluk Bintuni
+.07	Teluk Wondama
+.08	Kaimana
+.09	Tambrauw
+.10	Maybrat
+.11	Manokwari Selatan
+.12	Pegunungan Arfak
+.71	Sorong

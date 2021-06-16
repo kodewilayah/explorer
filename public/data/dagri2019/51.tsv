@@ -1,0 +1,783 @@
+51	Bali
+.01	Jembrana
+:01	Negara
+2001	Cupel
+2002	Baluk
+2003	Banyu Biru
+2004	Kaliakah
+2005	Berangbang
+1006	Baler Bale Agung
+1008	Banjar Tengah
+2009	Tegal Badeng Timur
+2010	Tegal Badeng Barat
+2011	Pengambengan
+1013	Lelateng
+1014	Loloan Barat
+:02	Mendoyo
+2001	Mendoyo Dauh Tukad
+2002	Pohsanten
+2003	Mendoyo Dangin Tukad
+2004	Pergung
+2005	Delodberawah
+1006	Tegalcangkring
+2007	Penyaringan
+2008	Yehembang
+2009	Yeh Sumbul
+2010	Yehembang Kauh
+2011	Yehembang Kangin
+:03	Pekutatan
+2001	Medewi
+2002	Pulukan
+2003	Asahduren
+2004	Pekutatan
+2005	Pangyangan
+2006	Gumbrih
+2007	Manggissari
+2008	Pengragoan
+:04	Melaya
+1001	Gilimanuk
+2002	Melaya
+2003	Belimbingsari
+2004	Ekasari
+2005	Nusasari
+2006	Warnasari
+2007	Candikusuma
+2008	Tuwed
+2009	Tukadaya
+2010	Manistutu
+:05	Jembrana
+1001	Pendem
+2002	Perancak
+1003	Loloan Timur
+2004	Batu Agung
+1005	Dauhwaru
+2006	Budeng
+2007	Air Kuning
+2008	Yehkuning
+1009	Sangkaragung
+2010	Dangin Tukadaya
+.02	Tabanan
+:01	Selemadeg
+2001	Bajera
+2002	Wanagiri
+2003	Pupuan Sawah
+2004	Berembeng
+2005	Selemadeg
+2006	Sarampingan
+2007	Antap
+2008	Wanagiri Kauh
+2009	Manikyang
+2010	Bajera Utara
+:02	Salamadeg Timur
+2001	Gunung Salak
+2002	Gadungan
+2003	Bantas
+2004	Mambang
+2005	Megati
+2006	Tangguntiti
+2007	Beraban
+2008	Tegal Mengkeb
+2009	Dalang
+2010	Gadungsari
+:03	Salemadeg Barat
+2001	Mundeh
+2002	Mundeh Kangin
+2003	Lalanglinggah
+2004	Antosari
+2005	Lumbung
+2006	Lumbung Kauh
+2007	Tiing Gading
+2008	Mundeh Kauh
+2009	Angkah
+2010	Selabih
+2011	Bengkel Sari
+:04	Kerambitan
+2001	Tibubiu
+2002	Kelating
+2003	Penarukan
+2004	Belumbang
+2005	Tista
+2006	Kerambitan
+2007	Pangkung Karung
+2008	Samsam
+2009	Kukuh
+2010	Baturiti
+2011	Meliling
+2012	Sembung Gede
+2013	Batuaji
+2014	Kesiut
+2015	Timpag
+:05	Tabanan
+2001	Sudimara
+2002	Gubug
+2003	Bongan
+2004	Delod Peken
+2005	Dauh Peken
+2006	Dajan Peken
+2007	Denbantas
+2008	Subamia
+2009	Wanasari
+2010	Tunjuk
+2011	Buahan
+2012	Sedandan
+:06	Kediri
+2001	Bengkel
+2002	Pangkung Tibah
+2003	Belalang
+2004	Beraban
+2005	Buwit
+2006	Cepaka
+2007	Kaba-kaba
+2008	Nyambu
+2009	Pandak Bandung
+2010	Pandak Gede
+2011	Nyitdah
+2012	Pejaten
+2013	Kediri
+2014	Abian Tuwung
+2015	Banjar Anyar
+:07	Marga
+2001	Kukuh
+2002	Beringkit
+2003	Peken
+2004	Batannyuh
+2005	Tegaljadi
+2006	Kuwum
+2007	Selanbawak
+2008	Marga
+2009	Petiga
+2010	Cau Belayu
+2011	Tua
+2012	Payangan
+2013	Marga Dajan Puri
+2014	Marga Dauh Puri
+2015	Geluntung
+2016	Baru
+:08	Penebel
+2001	Rejasa
+2002	Jegu
+2003	Riang Gede
+2004	Buruan
+2005	Biaung
+2006	Pitra
+2007	Penatahan
+2008	Tengkudak
+2009	Mengesta
+2010	Penebel
+2011	Babakan
+2012	Senganan
+2013	Jatiluwih
+2014	Wongaya Gede
+2015	Tajen
+2016	Tegallinggah
+2017	Pesagi
+2018	Sangketan
+:09	Baturiti
+2001	Perean
+2002	Luwus
+2003	Apuan
+2004	Angseri
+2005	Bangli
+2006	Baturiti
+2007	Antapan
+2008	Candikuning
+2009	Mekarsari
+2010	Batunya
+2011	Perean Tengah
+2012	Perean Kangin
+:10	Pupuan
+2001	Belimbing
+2002	Sanda
+2003	Batungsel
+2004	Kebon Padangan
+2005	Munduk Temu
+2006	Pujungan
+2007	Pupuan
+2008	Bantiran
+2009	Padangan
+2010	Jelijih Punggung
+2011	Belatungan
+2012	Pajahan
+2013	Karyasari
+2014	Sai
+.03	Badung
+:01	Kuta
+1001	Tuban
+1002	Kuta
+1003	Kedonganan
+1004	Legian
+1005	Seminyak
+:02	Mengwi
+2001	Munggu
+2002	Buduk
+2003	Mengwitani
+1004	Kapal
+1005	Sempidi
+2006	Penarungan
+2007	Sembung
+2008	Baha
+2009	Mengwi
+2010	Kekeran
+2011	Sobangan
+2012	Gulingan
+2013	Werdi Bhuwana
+1014	Abianbase
+1015	Sading
+1016	Lukluk
+2017	Cemagi
+2018	Pererenan
+2019	Tumbakbayuh
+2020	Kuwun
+:03	Abiansemal
+2001	Darmasaba
+2002	Sibangkaja
+2003	Sibanggede
+2004	Jagapati
+2005	Angantaka
+2006	Sedang
+2007	Mambal
+2008	Abiansemal
+2009	Bongkasa
+2010	Taman
+2011	Blahkiuh
+2012	Ayunan
+2013	Sangeh
+2014	Punggul
+2015	Mekar Bhuwana
+2016	Abiansemal Dauh Yeh Cani
+2017	Selat
+2018	Bongkasa Pertiwi
+:04	Petang
+2001	Carangsari
+2002	Petang
+2003	Belok/Sidan
+2004	Pelaga
+2005	Getasan
+2006	Pangsan
+2007	Sulangai
+:05	Kuta Selatan
+2001	Pecatu
+2002	Ungasan
+2003	Kutuh
+1004	Benoa
+1005	Tanjung Benoa
+1006	Jimbaran
+:06	Kuta Utara
+1001	Kerobokan Kelod
+1002	Kerobokan
+1003	Kerobokan Kaja
+2004	Tibubeneng
+2005	Canggu
+2006	Dalung
+.04	Gianyar
+:01	Sukawati
+2001	Batubulan
+2002	Ketewel
+2003	Guwang
+2004	Sukawati
+2005	Celuk
+2006	Singapadu
+2007	Batuan
+2008	Kemenuh
+2009	Batubulan Kangin
+2010	Singapadu Tengah
+2011	Singapadu Kaler
+2012	Batuan Kaler
+:02	Blahbatuh
+2001	Saba
+2002	Pering
+2003	Keramas
+2004	Belega
+2005	Blahbatuh
+2006	Buruan
+2007	Bedulu
+2008	Medahan
+2009	Bona
+:03	Gianyar
+2001	Tulikup
+2002	Sidan
+1003	Samplangan
+2004	Lebih
+1005	Abianbase
+1006	Gianyar
+1007	Bitera
+1008	Beng
+2009	Bakbakan
+2010	Siangan
+2011	Suwat
+2012	Petak
+2013	Serongga
+2014	Petak Kaja
+2015	Temesi
+2016	Sumita
+2017	Tegal Tugu
+:04	Tampaksiring
+2001	Pejeng
+2002	Sanding
+2003	Tampaksiring
+2004	Manukaya
+2005	Pejeng Kawan
+2006	Pejeng Kaja
+2007	Pejeng Kangin
+2008	Pejeng Kelod
+:05	Ubud
+2001	Lodtunduh
+2002	Mas
+2003	Singakerta
+2004	Kedewatan
+1005	Ubud
+2006	Peliatan
+2007	Petulu
+2008	Sayan
+:06	Tegallalang
+2001	Keliki
+2002	Tegallalang
+2003	Kenderan
+2004	Kedisan
+2005	Pupuan
+2006	Sebatu
+2007	Taro
+:07	Payangan
+2001	Melinggih
+2002	Kelusa
+2003	Bukian
+2004	Puhu
+2005	Buahan
+2006	Kerta
+2007	Melinggih Kelod
+2008	Buahan Kaja
+2009	Bresela
+.05	Klungkung
+:01	Nusa Penida
+2001	Sakti
+2002	Batumadeg
+2003	Klumpu
+2004	Batukandik
+2005	Sekartaji
+2006	Tanglad
+2007	Suana
+2008	Batununggul
+2009	Kutampi
+2010	Ped
+2011	Kampung Toyapakeh
+2012	Lembongan
+2013	Jungutbatu
+2014	Pejukutan
+2015	Kutampi Kaler
+2016	Bunga Mekar
+:02	Banjarangkan
+2001	Negari
+2002	Takmung
+2003	Banjarangkan
+2004	Tusan
+2005	Bakas
+2006	Getakan
+2007	Tihingan
+2008	Aan
+2009	Nyalian
+2010	Bungbungan
+2011	Timuhun
+2012	Nyanglan
+2013	Tohpati
+:03	Klungkung
+2001	Satra
+2002	Tojan
+2003	Gelgel
+2004	Kampung Gelgel
+2005	Jumpai
+2006	Tangkas
+2007	Kamasan
+1008	Semarapura Kaja
+1009	Semarapura Kauh
+1010	Semarapura Tengah
+1011	Semarapura Kangin
+1012	Semarapura Kelod Kangin
+1013	Semarapura Kelod
+2014	Akah
+2015	Manduang
+2016	Selat
+2017	Tegak
+2018	Selisihan
+:04	Dawan
+2001	Paksebali
+2002	Sampalan Tengah
+2003	Sampalan Kelod
+2004	Sulang
+2005	Gunaksa
+2006	Kusamba
+2007	Kampung Kusamba
+2008	Pesinggahan
+2009	Dawan Kelod
+2010	Pikat
+2011	Dawan Kaler
+2012	Besan
+.06	Bangli
+:01	Susut
+2001	Apuan
+2002	Demulih
+2003	Abuan
+2004	Susut
+2005	Sulahan
+2006	Penglumbaran
+2007	Tiga
+2008	Selat
+2009	Pengiangan
+:02	Bangli
+2001	Bunutin
+2002	Tamanbali
+1003	Bebalang
+1004	Kawan
+1005	Cempaga
+1006	Kubu
+2007	Kayubihi
+2008	Pengotan
+2009	Landih
+:03	Tembuku
+2001	Jehem
+2002	Tembuku
+2003	Yangapi
+2004	Undisan
+2005	Bangbang
+2006	Peninjoan
+:04	Kintamani
+2001	Mengani
+2002	Binyan
+2003	Ulian
+2004	Bunutin
+2005	Langgahan
+2006	Lembean
+2007	Manikliyu
+2008	Bayung Cerik
+2009	Mangguh
+2010	Belancan
+2011	Katung
+2012	Banua
+2013	Abuan
+2014	Bonyoh
+2015	Sekaan
+2016	Bayung Gede
+2017	Sekardadi
+2018	Kedisan
+2019	Buahan
+2020	Abangsongan
+2021	Suter
+2022	Batudinding
+2023	Terunyan
+2024	Songan A
+2025	Songan B
+2026	Batur Selatan
+2027	Batur Tengah
+2028	Batur Utara
+2029	Kintamani
+2030	Serai
+2031	Daup
+2032	Awan
+2033	Gunungbau
+2034	Belanga
+2035	Batukaang
+2036	Belantih
+2037	Catur
+2038	Pengejaran
+2039	Selulung
+2040	Satra
+2041	Dausa
+2042	Bantang
+2043	Sukawana
+2044	Kutuh
+2045	Subaya
+2046	Siakin
+2047	Pinggan
+2048	Belandingan
+.07	Karangasem
+:01	Rendang
+2001	Nongan
+2002	Rendang
+2003	Menanga
+2004	Besakih
+2005	Pempatan
+2006	Pesaban
+:02	Sidemen
+2001	Tangkup
+2002	Talibeng
+2003	Sidemen
+2004	Sangkan Gunung
+2005	Telaga Tawang
+2006	Sinduwati
+2007	Tri Eka Buana
+2008	Kerta Buana
+2009	Lakasari
+2010	Wismakerta
+:03	Manggis
+2001	Gegelang
+2002	Antiga
+2003	Ulakan
+2004	Manggis
+2005	Nyuh Tebel
+2006	Tenganan
+2007	Ngis
+2008	Selumbung
+2009	Padangbai
+2010	Antiga Kelod
+2011	Pasedahan
+2012	Sengkidu
+:04	Karangasem
+2001	Bugbug
+1002	Subagan
+1003	Padang Kerta
+1004	Karang asem
+2005	Tumbu
+2006	Seraya
+2007	Seraya Barat
+2008	Seraya Timur
+2009	Pertima
+2010	Tegalinggah
+2011	Bukit
+:05	Abang
+2001	Ababi
+2002	Tiying Tali
+2003	Bunutan
+2004	Tista
+2005	Abang
+2006	Pidpid
+2007	Datah
+2008	Culik
+2009	Purwakerti
+2010	Kerta Mandala
+2011	Labasari
+2012	Nawa Kerti
+2013	Kesimpar
+2014	Tribuana
+:06	Bebandem
+2001	Bungaya
+2002	Budekeling
+2003	Bebanden
+2004	Sibetan
+2005	Jungutan
+2006	Bungaya Kangin
+2007	Buana Giri
+2008	Macang
+:07	Selat
+2001	Muncan
+2002	Selat
+2003	Duda
+2004	Sebudi
+2005	Duda Utara
+2006	Duda Timur
+2007	Pering Sari
+2008	Amerta Bhuana
+:08	Kubu
+2001	Ban
+2002	Dukuh
+2003	Kubu
+2004	Tianyar
+2005	Tianyar Barat
+2006	Tianyar Tengah
+2007	Tulamben
+2008	Baturinggit
+2009	Sukadana
+.08	Buleleng
+:01	Gerokgak
+2001	Sumberklampok
+2002	Pejarakan
+2003	Sumberkima
+2004	Pemuteran
+2005	Banyupoh
+2006	Penyambangan
+2007	Musi
+2008	Sanggalangit
+2009	Gerokgak
+2010	Patas
+2011	Pengulon
+2012	Tinga-tinga
+2013	Celukanbawang
+2014	Tukadsumaga
+:02	Seririt
+2001	Unggahan
+2002	Ularan
+2003	Ringdikit
+2004	Rangdu
+2005	Mayong
+2006	Gunungsari
+2007	Munduk Bestala
+2008	Bestala
+2009	Kalianget
+2010	Joanyar
+2011	Tangguwisia
+2012	Sulanyah
+2013	Bubunan
+2014	Patemon
+1015	Seririt
+2016	Pengastulan
+2017	Lokapaksa
+2018	Pangkungparuk
+2019	Banjarasem
+2020	Kalisada
+2021	Umeanyar
+:03	Busungbiu
+2001	Sepang
+2002	Tista
+2003	Bongancina
+2004	Pucaksari
+2005	Telaga
+2006	Titab
+2007	Subuk
+2008	Tinggarsari
+2009	Kedis
+2010	Kekeran
+2011	Busungbiu
+2012	Pelapuan
+2013	Bengkel
+2014	Umejero
+2015	Sepang Kelod
+:04	Banjar
+2001	Banyuseri
+2002	Tirtasari
+2003	Kayuputih
+2004	Banyuatis
+2005	Gesing
+2006	Munduk
+2007	Gobleg
+2008	Pedawa
+2009	Cempaga
+2010	Sidetapa
+2011	Tampekan
+2012	Banjar Tegeha
+2013	Banjar
+2014	Dencarik
+2015	Temukus
+2016	Tigawasa
+2017	Kaliasem
+:05	Sukasada
+2001	Pancasari
+2002	Wanagiri
+2003	Ambengan
+2004	Gitgit
+2005	Pegayaman
+2006	Silangjana
+2007	Pegadungan
+2008	Padangbulia
+1009	Sukasada
+2010	Sambangan
+2011	Panji
+2012	Panji Anom
+2013	Tegallinggah
+2014	Selat
+2015	Kayu Putih
+:06	Buleleng
+2001	Kalibukbuk
+2002	Anturan
+2003	Tukadmungga
+2004	Pemaron
+2005	Baktiseraga
+1006	Banyuasri
+1007	Banjar Tegal
+1008	Kendran
+1009	Paket Agung
+1010	Kampung Singaraja
+1011	Liligundi
+1012	Beratan
+2013	Sarimekar
+2014	Nagasepaha
+2015	Petandakan
+2016	Alasangker
+2017	Poh Bergong
+2018	Jinangdalem
+1019	Banyuning
+1020	Penarukan
+1021	Kampung Kajanan
+1022	Astina
+1023	Banjar Jawa
+1024	Kaliuntu
+1025	Kampung Anyar
+1026	Kampung Bugis
+1027	Banjar Bali
+2028	Penglatan
+1029	Kampung Baru
+:07	Sawan
+2001	Lemukih
+2002	Galungan
+2003	Sekumpul
+2004	Bebetin
+2005	Sudaji
+2006	Sawan
+2007	Menyali
+2008	Suwug
+2009	Jagaraga
+2010	Sinabun
+2011	Kerobokan
+2012	Sangsit
+2013	Bungkulan
+2014	Giri Emas
+:08	Kubutambahan
+2001	Tambakan
+2002	Pakisan
+2003	Bontihing
+2004	Tajun
+2005	Tunjung
+2006	Depeha
+2007	Tamblang
+2008	Bulian
+2009	Bila
+2010	Bengkala
+2011	Kubutambahan
+2012	Bukti
+2013	Mengening
+:09	Tejakula
+2001	Sembiran
+2002	Pacung
+2003	Julah
+2004	Madenan
+2005	Bondalem
+2006	Tejakula
+2007	Les
+2008	Penuktukan
+2009	Sambirenteng
+2010	Tembok
+.71	Denpasar
+:01	Denpasar Selatan
+1001	Serangan
+1002	Pedungan
+1003	Sesetan
+1004	Panjer
+1005	Renon
+1006	Sanur
+2007	Sidakarya
+2008	Pemogan
+2009	Sanur Kaja
+2010	Sanur Kauh
+:02	Denpasar Timur
+2001	Dangin Puri Kelod
+2002	Sumerta Kelod
+1003	Kesiman
+2004	Kesiman Petilan
+2005	Kesiman Kertalangu
+1006	Sumerta
+2007	Sumerta Kaja
+2008	Sumerta Kauh
+1010	Dangin Puri
+1014	Penatih
+2015	Penatih Dangin Puri
+:03	Denpasar Barat
+2001	Padangsambian Kelod
+2002	Pemecutan Kelod
+2003	Dauh Puri Kauh
+2004	Dauh Puri Kelod
+1005	Dauh Puri
+2006	Dauh Puri Kangin
+1007	Pemecutan
+2008	Tegal Harum
+2009	Tegal Kertha
+1010	Padangsambian
+2011	Padang Sambian Kaja
+:04	Denpasar Utara
+2001	Dangin Puri Kangin
+2002	Dangin Puri Kauh
+2003	Dangin Puri Kaja
+1004	Tonja
+2005	Pemecutan Kaja
+2006	Dauh Puri Kaja
+1007	Ubung
+2008	Ubung Kaja
+1009	Peguyangan
+2010	Peguyangan Kaja
+2011	Peguyangan Kangin

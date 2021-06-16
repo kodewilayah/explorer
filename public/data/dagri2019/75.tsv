@@ -1,0 +1,813 @@
+75	Gorontalo
+.01	Gorontalo
+:01	Limboto
+1001	Kayubulan
+1002	Kayumerah
+1003	Hunggaluwa
+1004	Bolihuangga
+1005	Hepuhulawa
+1006	Hutuo
+1007	Dutulanaa
+1008	Tenilo
+1009	Biyonga
+1010	Bongohulawa
+1011	Bulota
+1012	Malahu
+1013	Tilihuwa
+1014	Polohungo
+:02	Telaga
+2011	Bulila
+2014	Mongolato
+2015	Luhu
+2016	Hulawa
+2017	Pilohayanga
+2018	Dulamayo Selatan
+2019	Dulamayo Barat
+2020	Dulohupa
+2021	Pilohayanga Barat
+:03	Batudaa
+2001	Iluta
+2002	Bua
+2003	Huntu
+2004	Payunga
+2012	Barakati
+2013	Ilohungayo
+2014	Dunggala
+2015	Pilobuhuta
+:04	Tibawa
+2001	Isimu Utara
+2002	Isimu Selatan
+2003	Datahu
+2004	Tolotio
+2005	Labanu
+2006	Reksonegoro
+2007	Buhu
+2008	Dunggala
+2009	Molowahu
+2010	Iloponu
+2011	Ilomata
+2012	Motilango
+2013	Isimu Raya
+2014	Balahu
+2015	Botumoputi
+2016	Ulobua
+:05	Batudaa Pantai
+2004	Tontayuo
+2005	Biluhu Timur
+2006	Kayubulan
+2007	Bongo
+2008	Lopo
+2009	Lamu
+2012	Olimoo'o
+2014	Buhudaa
+2015	Langgula
+:09	Boliyohuto
+2001	Sidomulyo
+2004	Parungi
+2006	Diloniyohu
+2007	Sidodadi
+2010	Potanga
+2011	Motoduto
+2012	Iloheluma
+2014	Monggolito
+2015	Bandung Rejo
+2018	Dulohupa
+2019	Sidomulya Selatan
+2020	Bongongoayu
+2021	Tolite
+:10	Telaga Biru
+2001	Dulamayo Utara
+2002	Ulapato A
+2003	Ulapato B
+2004	Talumelito
+2005	Tuladenggi
+2006	Pantungo
+2007	Lupoyo
+2008	Pentadio Timur
+2009	Pentadio Barat
+2010	Dumati
+2011	Modelidu
+2012	Tinelo
+2013	Timuato
+2014	Tapaluluo
+2015	Tonala
+:11	Bongomeme
+2001	Dulamayo
+2008	Upomela
+2009	Tohupo
+2010	Molanihu
+2011	Molopatodu
+2012	Molas
+2013	Batulayar
+2014	Batuloreng
+2015	Bongohulawa
+2016	Otopade
+2018	Huntulo Hulawa
+2022	Owalanga
+2023	Liyodu
+2024	Liyoto
+2025	Kayumerah
+:13	Tolangohula
+2001	Sukamakmur
+2002	Lakeya
+2003	Gandasari
+2004	Molohu
+2007	Polohungo
+2008	Bina Jaya
+2009	Tamaila
+2010	Sidoarjo
+2013	Sukamakmur Utara
+2014	Margomulya
+2015	Makmur Abadi
+2016	Gandaria
+2017	Ombulo Tango
+2018	Tamalia Utara
+2019	Himalaya
+:14	Mootilango
+2001	Paris
+2002	Helumo
+2003	Pilomonu
+2004	Satria
+2005	Karyamukti
+2006	Talumopatu
+2007	Sidomukti
+2008	Payu
+2009	Sukamaju
+2010	Huyula
+:16	Pulubala
+2001	Pongongaila
+2002	Pulubala
+2003	Molamahu
+2004	Bakti
+2005	Tridharma
+2006	Molalahu
+2007	Mulyonegoro
+2008	Puncak
+2009	Toyidito
+2010	Ayumolingo
+2011	Bukit Aren
+:17	Limboto Barat
+2001	Pone
+2002	Huidu
+2003	Ombulo
+2004	Daenaa
+2005	Yosonegoro
+2006	Tunggulo
+2007	Hutabohu
+2008	Padengo
+2009	Haya-Haya
+2010	Huidu Utara
+:18	Tilango
+2001	Tualango
+2002	Dulomo
+2003	Tilote
+2004	Tabumela
+2005	Ilotidea
+2006	Lauwonu
+2007	Tenggela
+2008	Tinelo
+:19	Tabongo
+2001	Tabongo Timur
+2002	Tabongo Barat
+2003	Limehe Barat
+2004	Limehe Timur
+2005	Ilomangga
+2006	Motinelo
+2007	Moahudu
+2008	Teratai
+2009	Limehu
+:20	Biluhu
+2001	Biluhu Barat
+2002	Lobuto
+2003	Biluhu Tengah
+2004	Luluo
+2005	Huwongo
+2006	Lobuto Timur
+2007	Botu Boluo
+2008	Olimeyala
+:21	Asparaga
+2001	Bululi
+2002	Mohiyolo
+2003	Pangahu
+2004	Karya Indah
+2005	Prima
+2006	Tiohu
+2007	Olimohulo
+2008	Karya Baru
+2009	Bontula
+2010	Bihe
+:22	Talaga Jaya
+2001	Hutadaa
+2002	Buhu
+2003	Luwoo
+2004	Bunggalo
+2005	Bulota
+:23	Bilato
+2001	Totopo
+2002	Bilato
+2003	Ilomata
+2004	Taula'a
+2005	Juriya
+2006	Pelehu
+2007	Bumela
+2008	Lamahu
+2009	Musyawarah
+2010	Suka Damai
+:24	Dungaliyo
+2001	Pilolalenga
+2002	Kaliyoso
+2003	Dungaliyo
+2004	Ambara
+2005	Bongomeme
+2006	Duwanga
+2007	Ayuhula
+2008	Pangadaa
+2009	Botubulowe
+2010	Momala
+.02	Boalemo
+:01	Paguyaman
+2004	Bongo Nol
+2005	Bongo IV
+2006	Molombulahe
+2007	Mutiara
+2008	Saripi
+2009	Wonggahu
+2010	Tangkobu
+2011	Bongo Tua
+2012	Kuala Lumpur
+2013	Mustika
+2014	Tenilo
+2015	Huwongo
+2016	Karya Murni
+2019	Girisa
+2020	Batu Kramat
+2021	Bualo
+2022	Sosial
+2023	Permata
+2024	Hulawa
+2025	Balate Jaya
+2026	Rejonegoro
+2027	Diloato
+:02	Wonosari
+2001	Harapan
+2002	Bongo II
+2003	Bongo III
+2004	Mekarjaya
+2005	Sukamaju
+2006	Pangeya
+2007	Jatimulya
+2008	Suka Mulya
+2009	Sari Tani
+2010	Dimito
+2011	Tanjung Harapan
+2012	Raharja
+2013	Trirukun
+2014	Dulohupa
+:03	Dulupi
+2001	Dulupi
+2002	Tabongo
+2003	Kotaraja
+2004	Polohungo
+2005	Pangi
+2006	Tangga Jaya
+2007	Tanah Putih
+2008	Tangga Barito
+:04	Tilamuta
+2001	Limbato
+2002	Piloliyanga
+2003	Ayuhulalo
+2004	Hungayonaa
+2005	Modelomo
+2006	Pentadu Barat
+2007	Pentadu Timur
+2008	Bajo
+2009	Mohungo
+2010	Lahumbo
+2011	Lamu
+2018	Tenilo
+:05	Mananggu
+2001	Tabulo
+2002	Kaaruyan
+2003	Salilama
+2004	Bendungan
+2005	Mananggu
+2006	Buti
+2007	Pontolo
+2008	Kramat
+2009	Tabulo Selatan
+:06	Botumoita
+2001	Tutulo
+2002	Hutamonu
+2003	Patoameme
+2004	Tapadaa
+2005	Potanga
+2006	Botumoito
+2007	Bolihutuo
+2008	Rumbia
+2009	Dulangeya
+:07	Paguyaman Pantai
+2001	Bubaa
+2002	Lito
+2003	Limbatihu
+2004	Bukit Karya
+2005	Apitalawu
+2006	Bangga
+2007	Towayu
+2008	Olibu
+.03	Bone Bolango
+:01	Tapa
+2004	Talumopatu
+2005	Talulobutu
+2006	Dunggala
+2007	Langge
+2027	Talulobutu Selatan
+2028	Keramat
+2029	Meranti
+:02	Kabila
+2006	Dutohe
+2007	Tanggilingo
+1008	Padengo
+1009	Olohuta
+1010	Tumbihe
+1011	Pauwo
+2012	Toto Selatan
+2013	Poowo
+2024	Talango
+2026	Poowo Barat
+1028	Olohuta Utara
+2029	Dutohe Barat
+:03	Suwawa
+2011	Tingkohubu
+2012	Boludawa
+2013	Bube
+2014	Huluduotamo
+2020	Ulanta
+2021	Tinelo
+2022	Bubeya
+2023	Bube Baru
+2027	Tingkohubu Timur
+2028	Helumo
+:04	Bonepantai
+2003	Tamboo
+2004	Bilungala
+2005	Uabanga
+2008	Tolotio
+2012	Tongo
+2025	Bilungala Utara
+2026	Tihu
+2027	Tunas Jaya
+2028	Lembah Hijau
+2029	Batu Hijau
+2031	Ombulo Hijau
+2032	Kemiri
+2033	Pelita Hijau
+:05	Bulango Utara
+2001	Boidu
+2002	Bandungan
+2003	Tupa
+2004	Longalo
+2009	Tuloa
+2010	Kopi
+2011	Lomaya
+2012	Suka Damai
+2015	Bunuo
+:06	Tilongkabila
+2001	Bongoime
+2002	Bongopini
+2003	Toto Utara
+2004	Moutong
+2005	Tunggulo
+2006	Lonuo
+2007	Tamboo
+2008	Iloheluma
+2009	Motilango
+2010	Butu
+2011	Permata
+2012	Tunggulo Selatan
+2013	Bongohulawa
+2014	Berlian
+:07	Botupingge
+2001	Timbuolo
+2002	Panggulo
+2003	Luwohu
+2004	Buata
+2005	Timbuolo Timur
+2006	Tanah Putih
+2007	Panggulo Barat
+2008	Timbuolo Tengah
+2009	Sukma
+:08	Kabila Bone
+2001	Huangobotu
+2002	Molutabu
+2003	Oluhuta
+2004	Olele
+2005	Botutonuo
+2006	Modelomo
+2007	Biluango
+2008	Botubarani
+2009	Bintalahe
+:09	Bone
+2001	Taludaa
+2002	Sogitia
+2003	Moodulio
+2004	Bilonlantunga
+2005	Inogaluma
+2006	Monano
+2007	Tumbuh Mekar
+2008	Molamahu
+2009	Masiaga
+2010	Ilohuuwa
+2011	Muara Bone
+2012	Cendana Putih
+2013	Waluhu
+2014	Permata
+:10	Bone Raya
+2001	Inomata
+2003	Tumbulilato
+2004	Mootayu
+2006	Mootinelo
+2009	Pelita Jaya
+2010	Moopiya
+2011	Alo
+2012	Laut Biru
+2014	Bunga
+2015	Mootawa
+:11	Suwawa Timur
+2001	Tulabolo
+2003	Dumbaya Bulan
+2004	Tulabolo Timur
+2005	Tilangobula
+2007	Poduwoma
+2008	Panggulo
+2009	Tulabolo Barat
+2010	Pangi
+2011	Tinemba
+:12	Suwawa Selatan
+2001	Bulontala
+2002	Libungo
+2003	Molintogupo
+2004	Bonedaa
+2005	Bondawuna
+2006	Bulontala Timur
+2007	Pancuran
+2008	Bondaraya
+:13	Suwawa Tengah
+2001	Lompotoo
+2002	Lombongo
+2003	Duano
+2004	Tolomato
+2005	Alale
+2006	Tapadaa
+:14	Bulango Ulu
+2001	Mongiilo
+2002	Owata
+2003	Mongiilo Utara
+2004	Pilolaheya
+2005	Ilomata
+2006	Suka Makmur
+:15	Bulango Selatan
+2001	Ayula Selatan
+2002	Huntu Utara
+2003	Ayula Utara
+2004	Huntu Selatan
+2006	Ayula Tilango
+2007	Ayula Timur
+2008	Lamahu
+2009	Tinelo Ayula
+2010	Sejahtera
+2011	Huntu Barat
+:16	Bulango Timur
+2001	Bulotalangi
+2002	Toluwaya
+2003	Popodu
+2004	Bulotalangi Timur
+2005	Bulotalangi Barat
+:17	Bulawa
+2001	Mamungaa
+2002	Kaidundu Barat
+2003	Mopuya
+2004	Kaidundu
+2005	Bukit Hijau
+2006	Mamungaa Timur
+2007	Dunggilata
+2008	Pinomotiga
+2009	Patoa
+:18	Pinogu
+2001	Pinogu
+2002	Bangio
+2003	Dataran Hijau
+2004	Pinogu Permai
+2005	Tilonggibila
+.04	Pahuwato
+:01	Popayato
+2003	Torosiaje Jaya
+2004	Popayato
+2008	Telaga
+2012	Torosiaje
+2015	Bukit Tingki
+2016	Tunas Harapan
+2017	Trikora
+2018	Dambalo
+2019	Telaga Biru
+2020	Bumi Bahari
+:02	Lemito
+2001	Lemito
+2002	Wonggarasi Barat
+2004	Lomuli
+2008	Lemito Utara
+2009	Kenari
+2010	Wonggarasi Tengah
+2011	Suka Damai
+2012	Babalonge
+:03	Randangan
+2001	Motolohu
+2002	Imbodu
+2003	Manunggal Karya
+2004	Sidorukun
+2008	Sarimurni
+2009	Huyula
+2012	Omayuwa
+2013	Ayula
+2014	Patuhu
+2015	Banuroja
+2016	Pelambane
+2017	Motolohu Selatan
+2018	Sidowonge
+:04	Marisa
+2003	Marisa Selatan
+2004	Marisa Utara
+2007	Teratai
+2008	Pohuwato
+2015	Batubilotahu
+2016	Palopo
+2017	Pohuwato Timur
+2018	Bulangita
+:05	Paguat
+1001	Libuo
+1002	Pentadu
+1003	Siduan
+2004	Bunuyo
+2005	Sipayo
+2006	Soginti
+2010	Bumbulan
+2012	Maleo
+2013	Molamahu
+2014	Buhu Jaya
+2015	Kemiri
+:06	Patilanggio
+2001	Iloheluma
+2002	Balayo
+2003	Suka Makmur
+2004	Manawa
+2005	Dulomo
+2006	Dudepo
+:07	Taluditi
+2001	Pancakarsa I
+2002	Pancakarsa II
+2003	Makarti Jaya
+2004	Kalimas
+2005	Malango
+2006	Puncak Jaya
+2007	Tirto Asri
+:08	Dengilo
+2001	Popaya
+2002	Karya Baru
+2003	Karangetan
+2004	Padengo
+2005	Hutamoputi
+:09	Buntulia
+2001	Hulawa
+2002	Karya Indah
+2003	Taluduyunu
+2004	Buntulia Utara
+2005	Buntulia Tengah
+2006	Taluduyunu Utara
+2007	Sipatana
+:10	Duhiadaa
+2001	Bulili
+2002	Buntulia Barat
+2003	Buntulia Selatan
+2004	Duhiadaa
+2005	Mekar Jaya
+2006	Buntulia Jaya
+2007	Padengo
+2008	Mootilango
+:11	Wanggarasi
+2001	Wanggarasi Timur
+2002	Bukit Harapan
+2003	Bohusami
+2004	Lembah Permai
+2005	Limbula
+2006	Yipilo
+2007	Tuweya
+:12	Popayato Timur
+2001	Milangodaa
+2002	Londoun
+2003	Marisa
+2004	Tahele
+2005	Bunto
+2006	Maleo
+2007	Kelapa Lima
+:13	Popayato Barat
+2001	Dudewulo
+2002	Tunas Jaya
+2003	Padengo
+2004	Molosifat
+2005	Butungale
+2006	Persatuan
+2007	Molosifat Utara
+.05	Gorontalo Utara
+:01	Atinggola
+2003	Imana
+2004	Bintana
+2005	Buata
+2006	Pinontoyonga
+2007	Monggupo
+2008	Kotajin
+2011	Ilomata
+2013	Iloheluma
+2014	Wapalo
+2015	Posono
+2016	Sigaso
+2017	Tombulilato
+2018	Kotajin Utara
+2019	Oluhuta
+:02	Kwandang
+2001	Pontolo
+2002	Molingkapoto
+2003	Leboto
+2004	Posso
+2005	Titidu
+2006	Moluo
+2010	Mootinelo
+2011	Bualemo
+2013	Bulalo
+2017	Katialada
+2019	Ombulodata
+2021	Alata Karya
+2023	Cisadane
+2024	Botuwombata
+2025	Botungobungo
+2026	Molingkapoto Selatan
+2030	Pontolo Atas
+2032	Masuru
+:03	Anggrek
+2001	Ilangata
+2002	Tolongio
+2006	Tolango
+2007	Popalo
+2008	Dudepo
+2009	Mootilango
+2011	Langge
+2012	Tutuwoto
+2013	Hiyalooile
+2014	Ibarat
+2017	Iloheluma
+2021	Ilodulunga
+2023	Putiana
+2024	Heluma
+2025	Datahu
+:04	Sumalata
+2001	Bulontiyo Timur
+2002	Bulontiyo Barat
+2007	Buloila
+2009	Kasia
+2010	Kikia
+2012	Tumba
+2013	Mebongo
+2014	Lelato
+2016	Pulohenti
+2019	Puncak Mandiri
+2020	Hutakalo
+:05	Tolinggula
+2001	Tolinggula Tengah
+2002	Tolinggula Pantai
+2003	Tolinggula Ulu
+2006	Limbato
+2007	Papualangi
+2008	Molangga
+2011	Cempaka Putih
+2014	Tolite Jaya
+2017	Ilomangga
+2018	Ilotunggulo
+:06	Gentuma Raya
+2001	Gentuma
+2002	Dumolodo
+2003	Molonggota
+2004	Ipilo
+2005	Langke
+2006	Pasalae
+2007	Nanati Jaya
+2008	Ketapang
+2009	Motomingo
+2010	Durian
+2011	Bohusami
+:07	Tomolito
+2001	Dambalo
+2002	Milango
+2003	Jembatan Merah
+2004	Bubode
+2005	Leyao
+2006	Molantadu
+2007	Huidu Melito
+2008	Bulango Raya
+2009	Tanjung Karang
+2010	Mutiara Laut
+:08	Ponelo Kepulauan
+2001	Ponelo
+2002	Malambe
+2003	Otiola
+2004	Tihengo
+:09	Monano
+2001	Monano
+2002	Tudi
+2003	Monas
+2004	Dunu
+2005	Garapia
+2006	Sogu
+2007	Pilohulata
+2008	Mokonowu
+2009	Tolitehuyu
+2010	Zuriyati
+:10	Biau
+2001	Biau
+2002	Omuto
+2003	Luhuto
+2004	Windu
+2005	Topi
+2006	Sembihinga
+2007	Didingga
+2008	Bualo
+2009	Potanga
+2010	Bohulo
+:11	Sumalata Timur
+2001	Deme Satu
+2002	Buluwatu
+2003	Dulukapa
+2004	Deme Dua
+2005	Buladu
+2006	Hulawa
+2007	Wubudu
+2008	Bubalango
+2009	Motiheluma
+2010	Koluwoka
+.71	Gorontalo
+:01	Kota Barat
+1001	Dembe I
+1002	Lekobalo
+1003	Pilolodaa
+1004	Buliide
+1005	Tenilo
+1006	Molosipat W
+1008	Buladu
+:02	Kota Selatan
+1010	Biawao
+1012	Biawu
+1013	Limba B
+1019	Limba U I
+1020	Limba U II
+:03	Kota Utara
+1003	Dembe II
+1004	Wongkaditi Timur
+1005	Wongkaditi Barat
+1010	Dulomo Selatan
+1014	Dulomo Utara
+1015	Dembe Jaya
+:04	Dungingi
+1001	Huangobotu
+1002	Libuo
+1003	Tomulabutao
+1004	Tuladengi
+1005	Tomulabutao Selatan
+:05	Kota Timur
+1003	Heledulaa Utara
+1004	Heledulaa Selatan
+1005	Ipilo
+1008	Moodu
+1009	Padebuolo
+1011	Tamalate
+:06	Kota Tengah
+1001	Wumialo
+1002	Dulalowo
+1003	Liluwo
+1004	Pulubala
+1005	Paguyaman
+1006	Dulalowo Timur
+:07	Sipatana
+1001	Tanggikiki
+1002	Tapa
+1003	Bulotadaa Barat
+1004	Bulotadaa Timur
+1005	Molosifat U
+:08	Dumbo Raya
+1001	Leato Utara
+1002	Leato Selatan
+1003	Talumolo
+1004	Botu
+1005	Bugis
+:09	Hulonthalangi
+1001	Tanjung Kramat
+1002	Pohe
+1003	Tenda
+1004	Donggala
+1005	Siendeng

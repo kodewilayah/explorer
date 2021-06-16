@@ -1,0 +1,318 @@
+31	DKI Jakarta
+.01	Kep. Seribu
+:01	Kepulauan Seribu Utara
+1001	Pulau Panggang
+1002	Pulau Kelapa
+1003	Pulau Harapan
+:02	Kepulauan Seribu Selatan
+1001	Pulau Untung Jawa
+1002	Pulau Tidung
+1003	Pulau Pari
+.71	Jakarta Pusat
+:01	Gambir
+1001	Gambir
+1002	Cideng
+1003	Petojo Utara
+1004	Petojo Selatan
+1005	Kebon Kelapa
+1006	Duri Pulo
+:02	Sawah Besar
+1001	Pasar Baru
+1002	Karang Anyar
+1003	Kartini
+1004	Gunung Sahari Utara
+1005	Mangga Dua Selatan
+:03	Kemayoran
+1001	Kemayoran
+1002	Kebon Kosong
+1003	Harapan Mulia
+1004	Serdang
+1005	Gunung Sahari Selatan
+1006	Cempaka Baru
+1007	Sumur Batu
+1008	Utan Panjang
+:04	Senen
+1001	Senen
+1002	Kenari
+1003	Paseban
+1004	Kramat
+1005	Kwitang
+1006	Bungur
+:05	Cempaka Putih
+1001	Cempaka Putih Timur
+1002	Cempaka Putih Barat
+1003	Rawasari
+:06	Menteng
+1001	Menteng
+1002	Pegangsaan
+1003	Cikini
+1004	Gondangdia
+1005	Kebon Sirih
+:07	Tanah Abang
+1001	Gelora
+1002	Bendungan Hilir
+1003	Karet Tengsin
+1004	Petamburan
+1005	Kebon Melati
+1006	Kebon Kacang
+1007	Kampung Bali
+:08	Johar Baru
+1001	Johar Baru
+1002	Kampung Rawa
+1003	Galur
+1004	Tanah Tinggi
+.72	Jakarta Utara
+:01	Penjaringan
+1001	Penjaringan
+1002	Kamal Muara
+1003	Kapuk Muara
+1004	Pejagalan
+1005	Pluit
+:02	Tanjung Priok
+1001	Tanjung Priok
+1002	Sunter Jaya
+1003	Papanggo
+1004	Sungai Bambu
+1005	Kebon Bawang
+1006	Sunter Agung
+1007	Warakas
+:03	Koja
+1001	Koja
+1002	Tugu Utara
+1003	Lagoa
+1004	Rawa Badak Utara
+1005	Tugu Selatan
+1006	Rawa Badak Selatan
+:04	Cilincing
+1001	Cilincing
+1002	Sukapura
+1003	Marunda
+1004	Kalibaru
+1005	Semper Timur
+1006	Rorotan
+1007	Semper Barat
+:05	Pademangan
+1001	Pademangan Timur
+1002	Pademangan Barat
+1003	Ancol
+:06	Kelapa Gading
+1001	Kelapa Gading Timur
+1002	Pegangsaan Dua
+1003	Kelapa Gading Barat
+.73	Jakarta Barat
+:01	Cengkareng
+1001	Cengkareng Barat
+1002	Duri Kosambi
+1003	Rawa Buaya
+1004	Kedaung Kali Angke
+1005	Kapuk
+1006	Cengkareng Timur
+:02	Grogol Petamburan
+1001	Grogol
+1002	Tanjung Duren Utara
+1003	Tomang
+1004	Jelambar
+1005	Tanjung Duren Selatan
+1006	Jelambar Baru
+1007	Wijaya Kusuma
+:03	Taman Sari
+1001	Taman Sari
+1002	Krukut
+1003	Maphar
+1004	Tangki
+1005	Mangga Besar
+1006	Keagungan
+1007	Glodok
+1008	Pinangsia
+:04	Tambora
+1001	Tambora
+1002	Kali Anyar
+1003	Duri Utara
+1004	Tanah Sereal
+1005	Krendang
+1006	Jembatan Besi
+1007	Angke
+1008	Jembatan Lima
+1009	Pekojan
+1010	Roa Malaka
+1011	Duri Selatan
+:05	Kebon Jeruk
+1001	Kebon Jeruk
+1002	Sukabumi Utara
+1003	Sukabumi Selatan
+1004	Kelapa Dua
+1005	Duri Kepa
+1006	Kedoya Utara
+1007	Kedoya Selatan
+:06	Kalideres
+1001	Kalideres
+1002	Semanan
+1003	Tegal Alur
+1004	Kamal
+1005	Pegadungan
+:07	Pal Merah
+1001	Palmerah
+1002	Slipi
+1003	Kota Bambu Utara
+1004	Jatipulo
+1005	Kemanggisan
+1006	Kota Bambu Selatan
+:08	Kembangan
+1001	Kembangan Utara
+1002	Meruya Utara
+1003	Meruya Selatan
+1004	Srengseng
+1005	Joglo
+1006	Kembangan Selatan
+.74	Jakarta Selatan
+:01	Tebet
+1001	Tebet Timur
+1002	Tebet Barat
+1003	Menteng Dalam
+1004	Kebon Baru
+1005	Bukit Duri
+1006	Manggarai Selatan
+1007	Manggarai
+:02	Setiabudi
+1001	Setia Budi
+1002	Karet Semanggi
+1003	Karet Kuningan
+1004	Karet
+1005	Menteng Atas
+1006	Pasar Manggis
+1007	Guntur
+1008	Kuningan Timur
+:03	Mampang Prapatan
+1001	Mampang Prapatan
+1002	Bangka
+1003	Pela Mampang
+1004	Tegal Parang
+1005	Kuningan Barat
+:04	Pasar Minggu
+1001	Pasar Minggu
+1002	Jati Padang
+1003	Cilandak Timur
+1004	Ragunan
+1005	Pejaten Timur
+1006	Pejaten Barat
+1007	Kebagusan
+:05	Kebayoran Lama
+1001	Kebayoran Lama Utara
+1002	Pondok Pinang
+1003	Cipulir
+1004	Grogol Utara
+1005	Grogol Selatan
+1006	Kebayoran Lama Selatan
+:06	Cilandak
+1001	Cilandak Barat
+1002	Lebak Bulus
+1003	Pondok Labu
+1004	Gandaria Selatan
+1005	Cipete Selatan
+:07	Kebayoran Baru
+1001	Melawai
+1002	Gunung
+1003	Kramat Pela
+1004	Selong
+1005	Rawa Barat
+1006	Senayan
+1007	Pulo
+1008	Petogogan
+1009	Gandaria Utara
+1010	Cipete Utara
+:08	Pancoran
+1001	Pancoran
+1002	Kalibata
+1003	Rawajati
+1004	Duren Tiga
+1005	Pengadegan
+1006	Cikoko
+:09	Jagakarsa
+1001	Jagakarsa
+1002	Srengseng Sawah
+1003	Ciganjur
+1004	Lenteng Agung
+1005	Tanjung Barat
+1006	Cipedak
+:10	Pesanggrahan
+1001	Pesanggrahan
+1002	Bintaro
+1003	Petukangan Utara
+1004	Petukangan Selatan
+1005	Ulujami
+.75	Jakarta Timur
+:01	Matraman
+1001	Pisangan Baru
+1002	Utan Kayu Utara
+1003	Kayu Manis
+1004	Palmeriam
+1005	Kebon Manggis
+1006	Utan Kayu Selatan
+:02	Pulogadung
+1001	Pulo Gadung
+1002	Pisangan Timur
+1003	Cipinang
+1004	Jatinegara Kaum
+1005	Rawamangun
+1006	Kayu Putih
+1007	Jati
+:03	Jatinegara
+1001	Kampung Melayu
+1002	Bidara Cina
+1003	Bali Mester
+1004	Rawa Bunga
+1005	Cipinang Cempedak
+1006	Cipinang Muara
+1007	Cipinang Besar Selatan
+1008	Cipinang Besar Utara
+:04	Kramatjati
+1001	Kramatjati
+1002	Tengah
+1003	Dukuh
+1004	Batu Ampar
+1005	Balekambang
+1006	Cililitan
+1007	Cawang
+:05	Pasar Rebo
+1001	Gedong
+1002	Baru
+1003	Cijantung
+1004	Kalisari
+1005	Pekayon
+:06	Cakung
+1001	Jatinegara
+1002	Rawa Terate
+1003	Penggilingan
+1004	Cakung Timur
+1005	Pulo Gebang
+1006	Ujung Menteng
+1007	Cakung Barat
+:07	Duren Sawit
+1001	Duren Sawit
+1002	Pondok Bambu
+1003	Klender
+1004	Pondok Kelapa
+1005	Malaka Sari
+1006	Malaka Jaya
+1007	Pondok Kopi
+:08	Makasar
+1001	Makasar
+1002	Pinangranti
+1003	Kebon Pala
+1004	Halim Perdana Kusuma
+1005	Cipinang Melayu
+:09	Ciracas
+1001	Ciracas
+1002	Cibubur
+1003	Kelapa Dua Wetan
+1004	Susukan
+1005	Rambutan
+:10	Cipayung
+1001	Cipayung
+1002	Cilangkap
+1003	Pondok Ranggon
+1004	Munjul
+1005	Setu
+1006	Bambu Apus
+1007	Lubang Buaya
+1008	Ceger

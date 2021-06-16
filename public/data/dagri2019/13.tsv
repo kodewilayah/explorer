@@ -1,0 +1,1358 @@
+13	Sumatera Barat
+.01	Pesisir Selatan
+:01	Pancung Soal
+2001	Inderapura
+2002	Muaro Sakai Inderapura
+2003	Tiga Sepakat Inderapura
+2004	Inderapura Barat
+2005	Kudo-Kudo Inderapura
+2006	Inderapura Selatan
+2009	Simpang Lama Inderapura
+2010	Tigo Sungai Inderapura
+2011	Tluk Amplu Inderapura
+2012	Inderapura Tengah
+:02	Ranah Pesisir
+2001	Pelangai
+2002	Sungai Tunu
+2003	Sungai Tunu Utara
+2004	Sungai Tunu Barat
+2005	Nyiur Melambai Pelangai
+2006	Sungai Liku Pelangai
+2007	Koto VIII Pelangai
+2008	Pelangai Gadang
+2009	Pelangai Kaciak
+2010	Pasia Pelangai
+:03	Lengayang
+2001	Kambang
+2002	Lakitan
+2003	Kambang Utara
+2004	Kambang Timur
+2005	Kambang Barat
+2006	Lakitan Utara
+2007	Lakitan Selatan
+2008	Lakitan Timur
+2009	Lakitan Tengah
+:04	Batang Kapas
+2001	IV Koto Hilie
+2002	IV Koto Mudiek
+2003	Taluak
+2004	Koto Nan Duo IV Koto Hilie
+2005	Koto Nan Tigo IV Koto Hilie
+2006	Teratak Tempatih IV Koto Mudiek
+2007	Tuik IV Koto Mudiek
+2008	Sungai Nyalo IV Koto Mudiek
+2009	Taluk Tigo Sakato
+:05	IV Jurai
+2001	Painan
+2002	Tambang
+2003	Salido
+2004	Lumpo
+2005	Bunga Pasang Salido
+2006	Sago Salido
+2007	Salido Sari Bulan
+2008	Koto Rawang
+2009	Limau Gadang Lumpo
+2010	Batu Kunik Lumpo
+2011	Taratak Tangah Lumpo
+2012	Ampuan Lumpo
+2013	Ampang Tareh Lumpo
+2014	Balai Sinayan Lumpo
+2015	Sungai Gayo Lumpo
+2016	Sungai Sariak Lumpo
+2017	Bukik Kaciak Lumpo
+2018	Gunung Bungkuak Lumpo
+2019	Painan Selatan Painan
+2020	Painan Timur Painan
+:06	Bayang
+2005	Koto Berapak
+2006	Talaok
+2007	Pasar Baru
+2008	Gurun Panjang
+2009	Api-api Pasar Baru
+2010	Tanjung Durian Pasar Baru
+2011	Asam Kamba Pasar Baru
+2012	Sawah Laweh Pasar Baru
+2013	Kapeh Panji Jaya Talaok
+2014	Aur Begalung Talaok
+2015	Kapelgam Koto Berapak
+2016	Koto Baru Koto Berapak
+2017	Kubang Koto Berapak
+2018	Kapujan Koto Berapak
+2019	Gurun Panjang Utara
+2020	Gurun Panjang Barat
+2021	Gurun Panjang Selatan
+:07	Koto XI Tarusan
+2001	Siguntur
+2002	Sungai Pinang
+2003	Duku
+2004	Batu Hampa
+2005	Nanggalo
+2006	Ampang Pulai
+2007	Kapuh
+2008	Barung-Barung Balantai
+2009	Barung-Barung Balantai Selatan
+2010	Mandeh
+2011	Kapuah Utara
+2012	Taratak Sungai Lundang
+2013	Siguntur Tua
+2014	Kampung Baru Korong Nan Ampek
+2015	Duku Utara
+2016	Pulau Karam Ampang Pulai
+2017	Jinang Kampung Pansur Ampang Pulai
+2018	Cerocok Anau Ampang Pulai
+2019	Sungai Nyalo Mudiak Aia
+2020	Batu Hampar Selatan
+2021	Barung-Barung Balantai Timur
+2022	Barung-Barung Balantai Tengah
+2023	Setara Nanggalo
+:08	Sutera
+2001	Taratak
+2002	Surantih
+2003	Amping Parak
+2004	Amping Parak Timur
+2005	Koto Taratak
+2006	Lansano Taratak
+2007	Aur Duri Surantih
+2008	Rawang Gunung Malelo Surantih
+2009	Koto Nan Tigo Selatan Surantih
+2010	Koto Nan Tigo Utara Surantih
+2011	Ganting Mudiak Selatan Surantih
+2012	Ganting Mudiak Utara Surantih
+:09	Linggo Sari Baganti
+2001	Punggasan
+2002	Air Haji
+2003	Punggasan Utara
+2004	Punggasan Timur
+2005	Padang XI Punggasan
+2006	Lagan Mudik Punggasan
+2007	Lagan Hilir Punggasan
+2008	Air Haji Tenggara
+2009	Pasar Lama Muara Air Haji
+2010	Pasar Bukit Air Haji
+2011	Air Haji Barat
+2012	Air Haji Tengah
+2013	Rantau Simalenang Air Haji
+2014	Muara Gadang Air Haji
+2015	Sungai Sirah Air Haji
+2016	Muara Kandis Punggasan
+:10	Lunang
+2001	Lunang
+2003	Lunang Utara
+2004	Lunang Selatan
+2005	Lunang Barat
+2015	Sindang Lunang
+2016	Pondok Parian Lunang
+2017	Lunang Tengah
+2018	Lunang Satu
+2019	Lunang Dua
+2020	Lunang Tiga
+:11	Basa Ampek Balai Tapan
+2001	Tapan
+2002	Pasar Tapan
+2007	Batang Arah Tapan
+2008	Ampang Tulak Tapan
+2009	Tanjung Pondok Tapan
+2010	Batang Betung Tapan
+2016	Bukit Buai Tapan
+2017	Riak Danau Tapan
+2018	Koto Anau Tapan
+2019	Dusun Baru Tapan
+:12	IV Nagari Bayang Utara
+2001	Puluik-Puluik
+2002	Koto Ranah
+2003	Muaro Aie
+2004	Pancuang Taba
+2005	Puluik-Puluik Selatan
+2006	Limau Gadang Pancung Taba
+:13	Airpura
+2001	Inderapura Utara
+2002	Muara Inderapura
+2003	Damar Lapan Batang Inderapura
+2004	Lalang Panjang Inderapura
+2005	Palokan Inderapura
+2006	Lubuk Betung Inderapura
+2007	Tluk Kualo Inderapura
+2008	Tanah Bakali Inderapura
+2009	Inderapura Timur
+2010	Pulau Rajo Inderapura
+:14	Ranah Ampek Hulu Tapan
+2001	Sungai Gambir Sako Tapan
+2002	Limau Purut Tapan
+2003	Talang Balarik Tapan
+2004	Tebing Tinggi Tapan
+2005	Binjai Tapan
+2006	Sungai Pinang Tapan
+2007	Talang Koto Pulai Tapan
+2008	Kampung Tengah Tapan
+2009	Kubu Tapan
+2010	Simpang Gunung Tapan
+:15	Silaut
+2001	Silaut
+2002	Sungai Sirah
+2003	Sungai Sarik
+2004	Sungai Pulai
+2005	Pasir Binjai
+2006	Talang Binjai
+2007	Durian Seribu
+2008	Lubuk Bunta
+2009	Air Hitam
+2010	Sambungo
+.02	Solok
+1036	Ikua Koto Dibalai
+:03	Pantai Cermin
+2001	Lolo
+2002	Surian
+:04	Lembah Gumanti
+2001	Alahan Panjang
+2002	Sungai Nanam
+2003	Salimpat
+2004	Aie Dingin
+:05	Payung Sekaki
+2001	Supayang
+2002	Sirukam
+2003	Aie Luo
+:06	Lembang Jaya
+2001	Batu Banyak
+2002	Batu Bajanjang
+2003	Koto Laweh
+2004	Limau Lunggo
+2005	Koto Gadang Koto Anau
+2006	Selayo Tanang B. Sileh
+:07	Gunung Talang
+2001	Cupak
+2002	Talang
+2003	Koto Gadang Guguak
+2004	Jawi Jawi
+2005	Sungai Janiah
+2006	Batang Barus
+2007	Aie Batumbuak
+2008	Koto Gaek Guguk
+:08	Bukit Sundi
+2001	Muaro Paneh
+2002	Kinari
+2003	Bukit Tandang
+2004	Parambahan
+2005	Dilam
+:09	IX Koto Sungai Lasi
+2001	Taruang-Taruang
+2002	Siaro-Aro
+2003	Pianggu
+2004	Sungai Durian
+2005	Bukik Bais
+2006	Sungai Jambur
+2007	Guguak Sarai
+2008	Koto Laweh
+2009	Indudur
+:10	Kubung
+2001	Koto Baru
+2002	Selayo
+2003	Panyakalan
+2004	Gaung
+2005	Gantuang Ciri
+2006	Saok Laweh
+2007	Koto Hilalang
+2008	Tanjung Bingkung
+:11	X Koto Singkarak
+2001	Sumani
+2002	Tikalak
+2003	Koto Sani
+2004	Singkarak
+2005	Aripan
+2006	Kacang
+2007	Tanjung Alai
+2008	Saniangbaka
+:12	X Koto Diatas
+2001	Sulit Air
+2002	Tanjung Balik
+2003	Paninjauan
+2004	Kuncir
+2005	Katialo
+2006	Pasilihan
+2007	Bukit Kanduang
+2008	Sibarambang
+2009	Labuh Panjang
+:13	Junjung Sirih
+2001	Paninggahan
+2002	Muaro Pingai
+:17	Hiliran Gumanti
+2001	Talang Babungo
+2002	Sariak Alahan Tigo
+2003	Sungai Abu
+:18	Tigo Lurah
+2001	Rangkiang Luluih
+2002	Batu Bajanjang
+2003	Garabak Data
+2004	Tanjung Balik Sumiso
+2005	Simanau
+:19	Danau Kembar
+2001	Simpang Tj. Nan IV
+2002	Kampung Batu Dalam
+.03	Sijunjung
+:03	Tanjung Gadang
+2001	Timbulun
+2002	Tanjung Gadang
+2003	Taratak Baru
+2004	Pulasan
+2005	Langki
+2006	Sibakur
+2007	Tanjung Lolo
+2008	Taratak Baru Utara
+2009	Sinyamu
+:04	Sijunjung
+2001	Muaro
+2002	Kandang Baru
+2003	Silokek
+2004	Pematang Panjang
+2005	Solok Ambah
+2006	Paru
+2007	Durian Gadang
+2008	Aie Angek
+2009	Sijunjung
+:05	IV Nagari
+2001	Palangki
+2002	Koto Baru
+2003	Muaro Bodi
+2004	Mundam Sakti
+2005	Koto Tuo
+:06	Kamang Baru
+2001	Sungai Lansek
+2002	Kamang
+2003	Muaro Takuang
+2004	Aie Amo
+2005	Sungai Batuang
+2006	Kunangan Parik Rantang
+2007	Tanjung Kaliang
+2008	Padang Tarok
+2009	Siaur
+2010	Lubuk Tarantang
+2011	Maloro
+:07	Lubuak Tarok
+2001	Lubuak Tarok
+2002	Lalan
+2003	Buluah Kasok
+2004	Kampung Dalam
+2005	Silongo
+2006	Latang
+:08	Koto VII
+2001	Limo Koto
+2002	Palaluar
+2003	Guguak
+2004	Padang Laweh
+2005	Tanjung
+2006	Bukit Bual
+:09	Sumpur Kudus
+2001	Silantai
+2002	Sisawah
+2003	Unggan
+2004	Tanjung Bonai Aur
+2005	Sumpur Kudus
+2006	Tamparungo
+2007	Kumanis
+2008	Manganti
+2009	Sumpur Kudus Selatan
+2010	Tanjung Labuah
+2011	Tanjung Bonai Aur Selatan
+:10	Kupitan
+2001	Batu Manjulur
+2002	Pamuatan
+2003	Padang Sibusuk
+2004	Desa Kampung Baru
+.04	Tanah Datar
+:01	X Koto
+2001	Tambangan
+2002	Jaho
+2003	Singgalang
+2004	Paninjauan
+2005	Panyalaian
+2006	Koto Laweh
+2007	Aie Angek
+2008	Pandai Sikek
+2009	Koto Baru
+:02	Batipuh
+2001	Andaleh
+2002	Sabu
+2003	Batipuah Ateh
+2004	Batipuah Baruah
+2005	Gunuang Rajo
+2006	Pitalah
+2007	Tanjuang Barulak
+2008	Bungo Tanjuang
+:03	Rambatan
+2001	Simawang
+2002	Balimbiang
+2003	III Koto
+2004	Padang Magek
+2005	Rambatan
+:04	Lima Kaum
+2001	Baringin
+2002	Limo Kaum
+2003	Parambahan
+2004	Cubadak
+2005	Labuh
+:05	Tanjung Emas
+2001	Tanjung Barulak
+2002	Saruaso
+2003	Koto Tangah
+2004	Pagaruyung
+:06	Lintau Buo
+2001	Taluak
+2002	Buo
+2003	Tigo Jangko
+2004	Pangian
+:07	Sungayang
+2001	Sungai Patai
+2002	Andaleh Baruh Bukik
+2003	Tanjung
+2004	Sungayang
+2005	Minang Kabau
+:08	Sungai Tarab
+2001	Simpuruik
+2002	Sungai Tarab
+2003	Gurun
+2004	Talang Tangah
+2005	Padang Laweh
+2006	Pasie Laweh
+2007	Koto Tuo
+2008	Rao Rao
+2009	Kumango
+2010	Koto Baru
+:09	Pariangan
+2001	Batu Basa
+2002	Tabek
+2003	Sawah Tangah
+2004	Simabur
+2005	Pariangan
+2006	Sungai Jambu
+:10	Salimpaung
+2001	Sumanik
+2002	Situmbuk
+2003	Lawang Mandahiling
+2004	Supayang
+2005	Salimpaung
+2006	Tabek Patah
+:11	Padang Ganting
+2001	Atar
+2002	Padang Ganting
+:12	Tanjuang Baru
+2001	Tanjuang Alam
+2002	Barulak
+:13	Lintau Buo Utara
+2001	Batu Bulek
+2002	Balai Tangah
+2003	Tanjuang Bonai
+2004	Lubuak Jantan
+2005	Tapi Selo
+:14	Batipuah Selatan
+2001	Batu Taba
+2002	Sumpur
+2003	Padang Laweh Malalo
+2004	Guguak Malalo
+.05	Padang Pariaman
+:01	Lubuk Alung
+2001	Lubuk Alung
+2002	Pungguang Kasiak Lubuk Alung
+2003	Pasie Laweh Lubuk Alung
+2004	Aie Tajun Lubuk Alung
+2005	Sikabu Lubuk Alung
+2006	Sungai Abang Lubuk Alung
+2007	Singguliang Lubuk Alung
+2008	Salibutan Lubuk Alung
+2009	Nagari Balah Hilia Lubuk Alung
+:02	Batang Anai
+2001	Katapiang
+2002	Kasang
+2003	Sungai Buluah
+2004	Buayan Lubuk Alung
+2005	Sungai Buluah Timur
+2006	Sungai Buluah Barat
+2007	Sungai Buluah Utara
+2008	Sungai Buluah Selatan
+:03	Nan Sabaris
+2001	Kapalo Koto
+2002	Pauh Kambar
+2003	Padang Bintungan
+2004	Kurai Taji
+2005	Sunua
+2006	Padang Kandang Pulau Air Padang
+2007	Sunua Tengah
+2008	Sunua Barat
+2009	Kurai Taji Timur
+:04	2 x 11 Enam Lingkuang
+2002	Sicincin
+2003	Lubuk Pandan
+2004	Sungai Asam
+:05	VII Koto Sungai Sarik
+2001	Balah Aie
+2002	Sungai Sariak
+2003	Lurah Ampalu
+2004	Lareh Nan Panjang
+2005	Lareh Nan Panjang Selatan
+2006	Lareh Nan Panjang Barat
+2007	Bisati Sungai Sariak
+2008	Ambuang Kapua Sungai Sariak
+2009	Lareh Nan Panjang Sungai Sariak
+2010	Limpato Sungai Sariak
+2011	Balah Aie Utara
+2012	Balah Aie Timur
+:06	V Koto Kampung Dalam
+2001	Campago
+2002	Sikucua
+2003	Campago Barat
+2004	Campago Selatan
+2005	Sikucua Utara
+2006	Sikucua Timur
+2007	Sikucua Tengah
+2008	Sikucua Barat
+:07	Sungai Garingging
+2001	Kuranji Hulu
+2002	Malai III Koto
+2003	Batu Gadang Kuranji Hulu
+2004	Sungai Sirah Kuranji Hulu
+:08	Sungai Limau
+2001	Kuranji Hilir
+2002	Pilubang
+2003	Guguak Kuranji Hilir
+2004	Koto Tinggi Kuranji Hilir
+:09	IV Koto Aur Malintang
+2001	III Koto Aur Malintang
+2002	III Koto Aur Malintang Utara
+2003	III Koto Aur Malintang Timur
+2004	III Koto Aur Malintang Selatan
+2005	Balai Baiak Malai III Koto
+:10	Ulakan Tapakih
+2001	Tapakih
+2002	Ulakan
+2003	Padang Toboh Ulakan
+2004	Sungai Gimba Ulakan
+2005	Seulayat Ulakan
+2006	Manggopoh Palak Gadang Ulakan
+2007	Sandi Ulakan
+2008	Kampuang Gelapuang Ulakan
+:11	Sintuak Toboh Gadang
+2001	Sintuak
+2002	Toboh Gadang
+2003	Toboh Gadang Selatan
+2004	Toboh Gadang Barat
+2005	Toboh Gadang Timur
+:12	Padang Sago
+2001	Koto Baru
+2002	Koto Dalam
+2003	Batu Kalang
+2004	Koto Dalam Barat
+2005	Koto Dalam Selatan
+2006	Batu Kalang Utara
+:13	Batang Gasan
+2001	Malai V Suku
+2002	Gasan Gadang
+2003	Malai V Suku Timur
+:14	V Koto Timur
+2001	Kudu Gantiang
+2002	Limau Puruik
+2003	Gunung Padang Alai
+2004	Kudu Gantiang Barat
+:15	2 x 11 Kayu Tanam
+2001	Kayu Tanam
+2002	Guguak
+2003	Anduriang
+2004	Kapalo Hilalang
+:16	Patamuan
+2001	Sungai Durian
+2002	Tandikek
+2003	Tandikek Utara
+2004	Tandikek Selatan
+2005	Tandikek Barat
+2006	Kampuang Tanjuang Koto Mambang Sungai
+:17	Enam Lingkung
+2001	Pakandangan
+2002	Koto Tinggi
+2003	Toboh Ketek
+2004	Parit Malintang
+2005	Gadur
+.06	Agam
+:01	Tanjung Mutiara
+2001	Tiku Selatan
+2002	Tiku Utara
+2003	Tiku Limo Jorong
+:02	Lubuk Basung
+2001	Lubuk Basung
+2002	Geragahan
+2003	Kampung Pinang
+2004	Kampung Tangah
+2005	Manggopoh
+:03	Tanjung Raya
+2001	Tanjung Sani
+2002	Sungai Batang
+2003	Maninjau
+2004	Bayua
+2006	Koto Kaciak
+2007	Duo Koto
+2008	Koto Gadang
+2009	Koto Malintang
+2010	Paninjauan
+:04	Matur
+2001	Matua Hilia
+2002	Matua Mudiak
+2003	Tigo Balai
+2004	Lawang
+2005	Parik Panjang
+2006	Panta Pauh
+:05	IV Koto
+2002	Sungai Landia
+2003	Balingka
+2004	Koto Tuo
+2005	Guguk Tabek Sarajo
+2006	Koto Panjang
+2007	Sianok Anam Suku
+2008	Koto Gadang
+:06	Banuhampu
+2001	Padang Lua
+2002	Taluak Ampek Suku
+2003	Pakan Sinayan
+2004	Kubang Putiah
+2005	Ladang Laweh
+2006	Cingkariang
+2007	Sungai Tanang
+:07	Ampek Angkek
+2001	Batu Taba
+2002	Biaro Gadang
+2003	Lambah
+2004	Panampung
+2005	Ampang Gadang
+2006	Pasia
+2008	Balai Gurah
+:08	Baso
+2001	Koto Tinggi
+2002	Tabek Panjang
+2004	Simarasok
+2005	Padang Tarok
+2006	Salo
+2007	Koto Baru
+:09	Tilatang Kamang
+2001	Koto Tangah
+2003	Gadut
+2004	Kapau
+:10	Palupuh
+2001	Koto Rantang
+2002	Pasia Laweh
+2003	Pagadih
+2004	Nan Tujuah
+:11	Pelembayan
+2001	Baringin
+2002	Sipinang
+2003	Sungai Puar
+2004	Ampek Koto Palembayan
+2005	Tigo Koto Silungkang
+2006	Salareh Aia
+:12	Sungai Pua
+2001	Padang Laweh
+2002	Sungai Pua
+2003	Batagak
+2004	Batu Palano
+2005	Sariak
+:13	Ampek Nagari
+2001	Batu Kambing
+2002	Sitalang
+2003	Bawan
+2004	Sitanang
+:14	Candung
+2001	Canduang Koto Laweh
+2002	Lasi
+2003	Bukik Batabuah
+:15	Kamang Magek
+2001	Magek
+2002	Kamang Hilia
+2003	Kamang Mudiak
+:16	Malalak
+2001	Malalak Utara
+2002	Malalak Timur
+2003	Malalak Selatan
+2004	Malalak Barat
+.07	Lima Puluh Kota
+:01	Suliki
+2001	Kurai
+2002	Sungai Rimbang
+2003	Tanjuang Bungo
+2004	Suliki
+2005	Limbanang
+2006	Andiang
+:02	Guguak
+2001	Guguak VIII Koto
+2002	VII Koto Talago
+2003	Sungai Talang
+2004	Kubang
+2005	Simpang Sugiran
+:03	Payakumbuh
+2001	Koto Baru Simalanggang
+2002	Taeh Bukik
+2003	Simalanggang
+2004	Sungai Beringin
+2005	Piobang
+2006	Taeh Baruah
+2007	Koto Tangah Simalanggang
+:04	Luak
+2001	Tj. Haro Sikabu-kabu Pd. Panjang
+2002	Mungo
+2003	Sungai Kamuyang
+2004	Andaleh
+:05	Harau
+2001	Taram
+2002	Solok Bio Bio
+2003	Tarantang
+2004	Bukik Limbuku
+2005	Harau
+2006	Batu Balang
+2007	Sarilamak
+2008	Gurun
+2009	Lubuak Batingkok
+2010	Koto Tuo
+2011	Pilubang
+:06	Pangkalan Koto Baru
+2001	Manggilang
+2002	Tanjuang Balik
+2003	Gunuang Malintang
+2004	Pangkalan
+2005	Koto Alam
+2006	Tanjung Pauh
+:07	Kapur IX
+2001	Muaro Paiti
+2002	Koto Bangun
+2003	Lubuak Alai
+2004	Koto Lamo
+2005	Durian Tinggi
+2006	Sialang
+2007	Galugua
+:08	Gunuang Omeh
+2001	Pandam Gadang
+2002	Koto Tinggi
+2003	Talang Anau
+:09	Lareh Sago Halaban
+2001	Labuah Gunuang
+2002	Batu Payuang
+2003	Ampalu
+2004	Bukik Sikumpa
+2005	Balai Panjang
+2006	Halaban
+2007	Tanjuang Gadang
+2008	Sitanang
+:10	Situjuah Limo Nagari
+2001	Situjuah Batua
+2002	Situjuah Ladang Laweh
+2003	Tungka
+2004	Situjuah Banda Dalam
+2005	Situjuah Gadang
+:11	Mungka
+2001	Jopang Manganti
+2002	Simpang Kapuak
+2003	Mungka
+2004	Talang Maur
+2005	Sungai Antuan
+:12	Bukik Barisan
+2001	Maek
+2002	Banja Loweh
+2003	Baruah Gunuang
+2004	Sungai Naniang
+2005	Koto Tangah
+:13	Akabiluru
+2001	Sariak Laweh
+2002	Koto Tangah Batu Ampa
+2003	Batuhampar
+2004	Suayan
+2005	Sungai Balantiak
+2006	Pauh Sangik
+2007	Durian Gadang
+.08	Pasaman
+:04	Bonjol
+2001	Limo Koto
+2002	Koto Kaciak
+2003	Ganggo Mudiak
+2004	Ganggo Hilia
+:05	Lubuk Sikaping
+2001	Tanjuang Baringin
+2002	Jambak
+2003	Durian Tinggi
+2004	Pauah
+2005	Aia Manggih
+2006	Sundata
+:07	Panti
+2001	Panti
+2003	Panti Timur
+2004	Panti Selatan
+:08	Mapat Tunggul
+2001	Muara Tais
+2002	Lubuak Gadang
+2005	Pintu Padang
+:12	Duo Koto
+2001	Simpang Tonang
+2002	Cubadak
+:13	Tigo Nagari
+2001	Malampah
+2002	Ladang Panjang
+2003	Binjai
+:14	Rao
+2002	Taruang Taruang
+2005	Padang Mantinggi
+:15	Mapat Tunggul Selatan
+2001	Silayang
+2002	Muaro Sungai Lolo
+:16	Simpang Alahan Mati
+2001	Alahan Mati
+2002	Simpang
+:17	Padang Gelugur
+2001	Padang Gelugur
+2002	Sontang Cubadak
+2003	Sitombol Padang Gelugua
+2004	Bahagia Padang Gelugua
+:18	Rao Utara
+2001	Koto Nopan
+2002	Koto Rajo
+2003	Languang
+:19	Rao Selatan
+2001	Lansek Kadok
+2002	Lubuak Layang
+2003	Tanjung Betung
+.09	Kepulauan Mentawai
+:01	Pagai Utara
+2007	Betumonga
+2008	Silabu
+2009	Saumanganya
+:02	Sipora Selatan
+2001	Bosua
+2002	Beriulou
+2003	Nemnemleleu
+2004	Mara
+2006	Sioban
+2007	Matobe
+2008	Saureinu
+:03	Siberut Selatan
+2002	Muara Siberut
+2003	Maileppet
+2004	Muntei
+2005	Matotonan
+2007	Madobag
+:04	Siberut Utara
+2003	Bojakan
+2004	Sotboyak
+2005	Mongan Poula
+2006	Muara Sikabaluan
+2007	Sirilogui
+2008	Malancan
+:05	Siberut Barat
+2001	Simatalu
+2002	Simalegi
+2003	Sigapokna
+:06	Siberut Barat Daya
+2001	Katurei
+2002	Sagulubbeg
+2003	Pasakiat Taileleu
+:07	Siberut Tengah
+2001	Saibi Samukop
+2002	Cimpungan
+2003	Saliguma
+:08	Sipora Utara
+2001	Betumonga
+2002	Goisooinan
+2003	Tuapejat
+2004	Sido Makmur
+2005	Bukit Pamewa
+2006	Sipora Jaya
+:09	Sikakap
+2001	Sikakap
+2002	Taikako
+2003	Matobe
+:10	Pagai Selatan
+2001	Sinaka
+2002	Bulasat
+2003	Malakopa
+2004	Makalo
+.10	Dharmasraya
+:01	Koto Baru
+2002	Koto Baru
+2003	Sialang Gaung
+2005	Ampang Kuranji
+2008	Koto Padang
+:02	Pulau Punjung
+2001	Sungai Dareh
+2002	Tebing Tinggi
+2006	Empat Koto Pulau Punjung
+2007	Sungai Kambut
+2008	Gunung Selasih
+2009	Sikabau
+:03	Sungai Rumbai
+2003	Sungai Rumbai
+2004	Kurnia Koto Salak
+2007	Sungai Rumbai Timur
+2008	Kurnia Selatan
+:04	Sitiung
+2001	Sitiung
+2002	Siguntur
+2004	Gunung Medan
+2005	Sungai Duo
+:05	Sembilan Koto
+2001	Silago
+2002	Lubuak Karak
+2003	Koto Nan Empat Dibawuh
+2004	Banai
+:06	Timpeh
+2001	Timpeh
+2002	Taratak Tinggi
+2003	Tabek
+2004	Panyubarangan
+2005	Ranah Palabi
+:07	Koto Salak
+2001	Koto Salak
+2002	Ampalu
+2003	Padukuan
+2004	Pulau Mainan
+2005	Simalidu
+:08	Tiumang
+2001	Tiumang
+2002	Sungai Langkok
+2003	Koto Beringin
+2004	Sipangkur
+:09	Padang Laweh
+2001	Padang Laweh
+2002	Batu Rijal
+2003	Muaro Sopan
+2004	Sopan Jaya
+:10	Asam Jujuhan
+2001	Sungai Limau
+2002	Alahan Nan Tigo
+2003	Lubuk Besar
+2004	Tanjung Alam
+2005	Sinamar
+:11	Koto Besar
+2001	Koto Besar
+2002	Koto Tinggi
+2003	Koto Gadang
+2004	Bonjol
+2005	Abai Siat
+2006	Koto Laweh
+2007	Koto Ranah
+.11	Solok Selatan
+:01	Sangir
+2001	Lubuk Gadang
+2002	Lubuk Gadang Timur
+2003	Lubuk Gadang Selatan
+2004	Lubuk Gadang Utara
+:02	Sungai Pagu
+2001	Pasir Talang
+2002	Koto Baru
+2004	Sako Pasia Talang
+2005	Pasar Muara Labuh
+2006	Pulakek Koto Baru
+2007	Bomas
+2008	Sako Utara Pasia Talang
+2009	Sako Selatan Pasia Talang
+2010	Pasir Talang Barat
+2011	Pasir Talang Timur
+2012	Pasir Talang Selatan
+:03	Koto Parik Gadang Diateh
+2001	Pakan Rabaa
+2002	Pakan Rabaa Timur
+2003	Pakan Rabaa Utara
+2004	Pakan Rabaa Tengah
+:04	Sangir Jujuan
+2001	Lubuk Malako
+2002	Bidar Alam
+2004	Padang Air Dingin
+2005	Padang Limau Sundai
+2006	Padang Gantiang
+:05	Sangir Batang Hari
+2001	Abai
+2002	Dusun Tangah
+2003	Lubuk Ulang Aling
+2004	Ranah Pantai Cermin
+2005	Sitapus
+2006	Lubuk Ulang Aling Selatan
+2007	Lubuk Ulang Aling Tengah
+:06	Pauh Duo
+2001	Alam Pauh Duo
+2002	Kapau Alam Pauh Duo
+2003	Luak Kapau Alam Pauh Duo
+2004	Pauh Duo Nan Batigo
+:07	Sangir Balai Janggo
+2001	Sungai Kunyit
+2002	Talao Sungai Kunyit
+2003	Sungai Kunyit Barat
+2004	Talunan Maju
+.12	Pasaman Barat
+:01	Sungaiberemas
+2001	Aia Bangih
+:02	Lembah Melintang
+2001	Ujung Gading
+:03	Pasaman
+2003	Lingkuang Aua
+2004	Aua Kuniang
+2006	Aia Gadang
+:04	Talamau
+2001	Kajai
+2002	Talu
+2003	Sinuruik
+:05	Kinali
+2001	Kinali
+2002	Katiagan
+:06	Gunungtuleh
+2001	Muaro Kiawai
+2002	Rabi Jonggor
+:07	Ranah Batahan
+2001	Batahan
+2002	Desa Baru
+:08	Koto Balingka
+2001	Parit
+:09	Sungaiaur
+2001	Sungai Aua
+:10	Luhak Nan Duo
+2001	Koto Baru
+2002	Kapa
+:11	Sasak Ranah Pesisir
+2001	Sasak
+.71	Padang
+:01	Padang Selatan
+1001	Belakang Pondok
+1002	Alang Laweh
+1003	Ranah Parak Rumbio
+1004	Pasa Gadang
+1005	Batang Arau
+1006	Seberang Palinggam
+1007	Seberang Padang
+1008	Mata Air
+1009	Rawang
+1010	Teluk Bayur
+1011	Air Manis
+1012	Bukit Gado-gado
+:02	Padang Timur
+1001	Sawahan
+1002	Jati Baru
+1003	Jati
+1004	Sawahan Timur
+1005	Simpang Haru
+1006	Kubu Marapalam
+1007	Andalas
+1008	Kubu Dalam Parak Karakah
+1009	Parak Gadang Timur
+1010	Ganting Parak Gadang
+:03	Padang Barat
+1001	Flamboyan Baru
+1002	Rimbo Kaluang
+1003	Ujung Gurun
+1004	Purus
+1005	Padang Pasir
+1006	Olo
+1007	Kampung Jao
+1008	Belakang Tangsi
+1009	Kampung Pondok
+1010	Berok Nipah
+:04	Padang Utara
+1001	Air Tawar Timur
+1002	Air Tawar Barat
+1003	Ulak Karang Utara
+1004	Ulak Karang Selatan
+1005	Lolong Belanti
+1006	Alai Parak Kopi
+1007	Gunung Pangilun
+:05	Bungus Teluk Kabung
+1001	Bungus Timur
+1002	Bungus Barat
+1003	Bungus Selatan
+1004	Teluk Kabung Utara
+1005	Teluk Kabung Tengah
+1006	Teluk Kabung Selatan
+:06	Lubuk Begalung
+1001	Cangkeh Nan XX
+1002	Kampung Baru Nan XX
+1003	Tanah Sirah Piai Nan XX
+1004	Tanjung Saba Pitamen Nan XX
+1005	Lubuk Begalung Nan XX
+1006	Gurun Laweh Nan XX
+1007	Tanjung Aua Nan XX
+1008	Koto Baru Nan XX
+1009	Banuaran Nan XX
+1010	Parak Laweh Pulau Aia Nan XX
+1011	Batung Taba Nan XX
+1012	Pagambiran Ampalu Nan XX
+1013	Pampangan Nan XX
+1014	Gates Nan XX
+1015	Kampung Jua Nan XX
+:07	Lubuk Kilangan
+1001	Indarung
+1002	Padang Besi
+1003	Batu Gadang
+1004	Bandar Buat
+1005	Koto Lalang
+1006	Baringin
+1007	Tarantang
+:08	Pauh
+1001	Limau Manis
+1002	Koto Lua
+1003	Limau Manis Selatan
+1004	Piai Tangah
+1005	Cupak Tangah
+1006	Pisang
+1007	Binuang Kampuang Dalam
+1008	Kapalo Koto
+1009	Lambung Bukik
+:09	Kuranji
+1001	Pasar Ambacang
+1002	Anduring
+1003	Lubuk Lintah
+1004	Ampang
+1005	Kalumbuk
+1006	Korong Gadang
+1007	Kuranji
+1008	Gunung Sarik
+1009	Sungai Sapih
+:10	Nanggalo
+1001	Surau Gadang
+1002	Kampung Olo
+1003	Kurao Pagang
+1004	Gurun Laweh
+1005	Tabing Banda Gadang
+1006	Kampung Lapai
+:11	Koto Tangah
+1001	Balai Gadang
+1002	Lubuk Minturun
+1003	Aie Pacah
+1004	Dadok Tunggul Hitam
+1005	Koto Panjang Ikua Koto
+1006	Koto Pulai
+1007	Batipuh Panjang
+1008	Padang Sarai
+1009	Lubuk Buaya
+1010	Batang Kabung Ganting
+1011	Bungo Pasang
+1012	Parupuk Tabing
+1013	Pasie Nan Tigo
+.72	Solok
+:01	Lubuk Sikarah
+1001	Tanah Garam
+1002	VI Suku
+1003	Sinapa Piliang
+1004	IX Korong
+1005	Kampai Tabu Karambia
+1006	Aro IV Korong
+1007	Simpang Rumbio
+:02	Tanjung Harapan
+1001	Koto Panjang
+1002	Pasar Pandan Air Mati
+1003	Tanjung Paku
+1004	Nan Balimo
+1005	Kampung Jawa
+1006	Laing
+.73	Sawahlunto
+:01	Lembah Segar
+1001	Aur Mulio
+1002	Kubang Sirakuk Utara
+1003	Kubang S. Selatan
+1004	Pasar
+1005	Tanah Lapang
+1006	Aia Dingin
+2007	Lunto Timur
+2008	Lunto Barat
+2009	Kubang Tangah
+2010	Kubang Utara Sikabu
+2011	Pasa Kubang
+:02	Barangin
+1001	Saringan
+1002	Lubang Panjang
+1003	Durian I
+1004	Durian II
+2005	Santua
+2006	Kolok Mudiak
+2007	Kolok Nan Tuo
+2008	Talago Gunung
+2009	Lumindai
+2010	Balai Batu Sadara
+:03	Silungkang
+2001	Silungkang Duo
+2002	Silungkang Oso
+2003	Silungkang Tigo
+2004	Muaro Kalaban
+2005	Taratak Boncah
+:04	Talawi
+2001	Talawi Hilie
+2002	Talawi Mudiak
+2003	Bukit Gadang
+2004	Batu Tanjung
+2005	Kumbayau
+2006	Tumpuk Tangah
+2007	Data Mansiang
+2008	Sijantang Koto
+2009	Salak
+2010	Sikalang
+2011	Rantih
+.74	Padang Panjang
+:01	Padang Panjang Timur
+1001	Ganting
+1002	Sigando
+1003	Ekor Lubuk
+1004	Ngalau
+1005	Guguk Malintang
+1006	Koto Panjang
+1007	Koto Katik
+1008	Tanah Pak Lambik
+:02	Padang Panjang Barat
+1001	Bukit Surungan
+1002	Pasar Usang
+1003	Kampung Manggis
+1004	Silaing Bawah
+1005	Silaing Atas
+1006	Pasar Baru
+1007	Tanah Hitam
+1008	Balai-balai
+.75	Bukittinggi
+:01	Guguak Panjang
+1001	Tarok Dipo
+1002	Bukik Cangang/Kayu Rmg.
+1003	Pakan Kurai
+1004	Aur Tajungkang/Tgh. Sawah
+1005	Benteng Pasar Atas
+1006	Kayu Kubu
+1007	Bukik Apik Puhun
+:02	Mandiangin K. Selayan
+1001	Campago Guguk Bulek
+1002	Campago Ipuh
+1003	Puhun Tembok
+1004	Kubu Gulai Bancah
+1005	Puhun Pintu Kabun
+1006	Pulai Anak Air
+1007	Koto Selayan
+1008	Garegeh
+1009	Manggis/Ganting
+:03	Aur Birugo Tigo Baleh
+1001	Aur Kuning
+1002	Birugo
+1003	Belakang Balok
+1004	Sapiran
+1005	Kubu Tanjung
+1006	Pakan Labuh
+1007	Parit Rantang
+1008	Ladang Cakiah
+.76	Payakumbuh
+:01	Payakumbuh Barat
+1002	Pakan Sinayan
+1003	Kubu Gadang
+1004	Bulakan Balai Kandi
+1005	Payolansek
+1007	Talang
+1009	Padang Tinggi Piliang
+1011	Koto Tangah
+1013	Subarang Batuang
+1016	Parik Rantang
+1017	Parak Batuang
+1018	Nunang Daya Bangun
+1020	Labuah Basilang
+1021	Ibuah
+1022	Tanjung Pauh
+1032	Tanjuanggodang Sungaipinago
+1033	Padangtongah Balainanduo
+1034	Padangdata Tanahmati
+:02	Payakumbuh Utara
+1002	Napar
+1032	Ompang Tanah Sirah
+1033	Taratak Padang Kampuang
+1034	Tigo Koto Dibaruah
+1035	Tigo Koto Diate
+1036	Ikua Koto Dibalai
+1037	Balai Tongah Koto
+1038	Kapalo Koto Dibalai
+1039	Kotokociak Kubu Tapakrajo
+:03	Payakumbuh Timur
+1001	Balai Jaring
+1002	Padang Alai Bodi
+1003	Padang Tangah Payobadar
+1005	Sicincin
+1007	Padang Tiakar
+1009	Payobasung
+1010	Koto Panjang
+1011	Koto Baru
+1015	Tiakar
+:04	Lamposi Tigo Nagori
+1001	Sungai Durian
+1002	Parit Muko Aie
+1003	Parambahan
+1004	Padang Sikabu
+1005	Koto Panjang Padang
+1006	Koto Panjang Dalam
+:05	Payakumbuh Selatan
+1001	Padang Karambia
+1002	Kototuo Limokampuang
+1003	Limbukan
+1005	Balai Panjang
+1006	Kapalo Koto Ampangan
+1010	Sawahpadang Aua Kuniang
+.77	Pariaman
+:01	Pariaman Tengah
+1001	Karan Aur
+1002	Kampung Perak
+1003	Lohong
+1004	Pasir
+1005	Kampung Pondok
+1006	Pondok II
+1007	Kampung Jawa I
+1008	Kampung Jawa II
+1009	Alai Gelombang
+1010	Jawi Jawi I
+1011	Jawi Jawi II
+1012	Jalan Baru
+1013	Taratak
+1014	Jalan Kereta Api
+1015	Ujung Batung
+1016	Jati Hilir
+2017	Pauh Barat
+2018	Pauh Timur
+2019	Rawang
+2020	Kampung Baru
+2021	Cimparuh
+2025	Jati Mudik
+:02	Pariaman Utara
+2005	Ampalu
+2006	Apar
+2007	Tanjung Sabar
+2008	Cubadak Air Selatan
+2009	Sikapak Barat
+2010	Sikapak Timur
+2011	Manggung
+2012	Cubadak Air Utara
+2013	Tungkal Selatan
+2014	Naras Hilir
+2015	Naras I
+2016	Balai Naras
+2017	Padang Birik Birik
+2018	Sintuk
+2019	Sungai Rambai
+2020	Tungkal Utara
+2021	Cubadak Air
+:03	Pariaman Selatan
+2006	Pasir Sunur
+2007	Balai Kurai Taji
+2008	Pauh Kurai Taji
+2009	Simpang
+2010	Toboh Palabah
+2011	Marabau
+2012	Batang Tajongkek
+2013	Sikabu
+2014	Sungai Kasai
+2015	Palak Aneh
+2016	Kampung Apar
+2017	Marunggi
+2018	Taluk
+2019	Padang Cakur
+2020	Punggung Lading
+2021	Rambai
+:04	Pariaman Timur
+2001	Talago Sarik
+2002	Pakasai
+2003	Kampung Baru Padusunan
+2004	Kampung Gadang
+2005	Koto Marapak
+2006	Batang Kabung
+2007	Bato
+2008	Air Santok
+2009	Cubadak Mentawai
+2010	Sungai Sirah
+2011	Sungai Pasak
+2012	Bungo Tanjung
+2013	Kampung Tangah
+2014	Kampung Kandang
+2015	Kaluat
+2016	Kajai

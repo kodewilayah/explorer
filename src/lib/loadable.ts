@@ -29,9 +29,13 @@ export class LoadableArray<T> extends Array<T> {
 
   constructor(source?: Iterable<T>) {
     super();
-    if (source) {
+    if (source && typeof source[Symbol.iterator] === 'function') {
       this.load(source);
     }
+  }
+
+  purge() {
+    this.splice(0);
   }
 
   setLoadingState(loading: boolean, loaded: boolean) {
@@ -40,8 +44,11 @@ export class LoadableArray<T> extends Array<T> {
   }
 
   async load(loader: Loader<Iterable<T>>) {
-    this.splice(0);
-    this.push(...await resolveLoader(loader, (loading, loaded) => this.setLoadingState(loading, loaded)))
+    this.purge();
+    this.push(...await resolveLoader(
+      loader,
+      (loading, loaded) => this.setLoadingState(loading, loaded)
+    ))
   }
 }
 
