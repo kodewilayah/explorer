@@ -26,7 +26,7 @@ def parse_line(line):
     elif len(code) == 5:
         # for kabupaten/kota, remove the prefix
         # prefix can be determined based on the code (if >70 then kota)
-        name = re.sub('^(KAB\.|KOTA) (ADM\. )?', '', name)
+        name = re.sub('^(KAB\.?|KOTA) (ADM\. )?', '', name)
 
         # then convert all-caps to title-case
         name = name.title()
