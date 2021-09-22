@@ -1,7 +1,5 @@
 ports:
 - port: 3000
 tasks:
-- init: npm install -g npm@^7
-- init: npm install
-- command: npm install && npm run dev
-  openMode: split-right
+- init: npm install -g npm@^7 && npm install
+  command: npm install
