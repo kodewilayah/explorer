@@ -1,5 +1,26 @@
 <template>
-  <div v-html="heroContent"></div>
+  <div>
+    <div class="mt-12 md:mt-16 lg:mt-20">
+      <h1 class="text-4xl font-semibold mb-6">kodewilayah<span class="text-red-500">.id</span></h1>
+      <div>
+        <p class="mb-2 text-gray-600 text-xl">
+          Referensi lengkap nama dan kode wilayah se-Indonesia
+        </p>
+        <ul class="mb-6 text-gray-500 text-lg">
+          <li class="mb-1">
+            📄 <b class="font-semibold text-gray-800">Siap digunakan</b> dalam bentuk CSV yang sudah dibersihkan</li>
+          <li class="mb-1">
+            🇮🇩 <b class="font-semibold text-gray-800">Lengkap</b> dengan kode Dukcapil, BPS, Pos, dan SLIK, hingga tingkat kelurahan/desa</li>
+          <li>✅ <b class="font-semibold text-gray-800">Bebas pakai</b> tanpa atribusi sama sekali</li>
+        </ul>
+      </div>
+      <p class="mb-8">
+        <a href="https://raw.githubusercontent.com/kodewilayah/permendagri-72-2019/main/dist/base.csv"
+           class="px-6 py-3 inline-block bg-red-700 hover:bg-red-500 transition-colors duration-500 rounded-2xl text-white font-semibold"
+        >Unduh CSV</a>
+      </p>
+    </div>
+  </div>
   <div class="mt-8 md:mt-16 lg:mt-20">
     <hr class="mb-6" />
     <h2 class="mb-4 text-gray-800 font-semibold">Telusuri berdasarkan provinsi</h2>
@@ -18,7 +39,7 @@
     <hr class="mt-8 mb-8" />
     <h2 class="mb-2 text-gray-800 font-semibold">Sumber data</h2>
     <ul class="mb-12 text-gray-600 list-disc ml-5">
-      <li class="mb-1">Permendagri 137/2017 (Dukcapil)</li>
+      <li class="mb-1">Permendagri 72/2019 (Dukcapil)</li>
       <li class="mb-1">Kode pos <v-label>Coming soon</v-label></li>
       <li class="mb-1">BPS <v-label>Coming soon</v-label></li>
       <li class="mb-1">SLIK OJK (POJK 18/POJK.03/2017) <v-label>Coming soon</v-label></li>
@@ -28,13 +49,8 @@
 </template>
 
 <script lang="ts" setup>
-  import { defineProps } from 'vue';
   import VLabel from '../components/VLabel.vue';
   document.title = 'Kode Wilayah Indonesia';
-
-  const props = defineProps({
-    heroContent: String
-  });
 
   const clusters: [number, string][][] = [
     [

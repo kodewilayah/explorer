@@ -3,16 +3,14 @@ import App from './App.vue'
 import Home from './pages/Home.vue'
 
 import { createRouter, createWebHistory } from 'vue-router';
+import { createPinia } from 'pinia';
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
       path: '/',
-      component: Home,
-      props: {
-        heroContent: document.getElementById('app')?.innerHTML
-      }
+      component: Home
     },
     {
       path: '/:code',
@@ -30,4 +28,4 @@ router.afterEach(({ fullPath }) => {
     window.goatcounter.count({ path: fullPath })
 });
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(router).use(createPinia()).mount('#app')

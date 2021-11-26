@@ -1,55 +1,38 @@
-export type Loader<T> = (() => T) | (() => PromiseLike<T>) | (T | PromiseLike<T>)
-
-export type LoadingStateSetter = (loading: boolean, loaded: boolean) => void;
-
-export async function resolveLoader<T>(
-  loader: Loader<T>,
-  setLoadingState: LoadingStateSetter = () => null
-): Promise<T> {
-  let resolved: T;
-  if (typeof loader === 'function') {
-    setLoadingState(true, false);
-    resolved = await Promise.resolve<T>((loader as (() => T) | (() => PromiseLike<T>))())
-    setLoadingState(false, true);
-  } else if (typeof (loader as PromiseLike<T>).then === 'function') {
-    setLoadingState(true, false);
-    resolved = await (loader as PromiseLike<T>);
-    setLoadingState(false, true);
-  } else {
-    resolved = (loader as T);
-    setLoadingState(false, true);
-  }
-
-  return resolved;
-}
+type Loader<T> = Promise<Iterable<T> | undefined> | Iterable<T> | undefined
 
 export class LoadableArray<T> extends Array<T> {
   loading = false;
   loaded = false;
 
-  constructor(source?: Iterable<T>) {
+  constructor(source?: Loader<T>) {
     super();
-    if (source && typeof source[Symbol.iterator] === 'function') {
+    if (source) {
       this.load(source);
     }
   }
 
-  purge() {
+  unload() {
     this.splice(0);
+    this.loading = true;
+    this.loaded = false;
   }
 
-  setLoadingState(loading: boolean, loaded: boolean) {
-    this.loading = loading;
-    this.loaded = loaded;
-  }
+  async load(elements: Loader<T>) {
+    if (elements && 'then' in elements) {
+      this.unload();
+      const resolvedElements = await elements;
+      if (resolvedElements) {
+        this.push(...resolvedElements);
+      }
+    } else {
+      if (elements) {
+        this.splice(0, this.length, ...elements);
+      } else {
+        this.splice(0);
+      }
+    }
 
-  async load(loader: Loader<Iterable<T>>) {
-    const resolved = await resolveLoader(
-      loader,
-      (loading, loaded) => this.setLoadingState(loading, loaded)
-    );
-    this.purge();
-    this.push(...resolved)
+    this.loading = false;
+    this.loaded = true;
   }
 }
-

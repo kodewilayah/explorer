@@ -55,16 +55,15 @@
 
 <script lang="ts" setup>
   import { defineProps, computed, watchEffect } from 'vue';
-  import { useRegion } from '../lib/region';
   import VSpinner from '../components/VSpinner.vue';
-  import { codeToChildren } from '../lib/store';
+  import { useStore } from '../lib/store';
 
   const props = defineProps({
     code: String
   });
 
-  const region = useRegion(() => props.code);
-  const name = computed(() => region.name);
+  const store = useStore()
+  const region = store.useRegion(() => props.code);
   const parent = computed(() => region.parent);
   const children = computed(() => region.children);
   const isLoading = computed(() => region.loading);
@@ -85,6 +84,4 @@
       document.title = `${region.prefix} ${region.name}`;
     }
   });
-
-  const code = props.code;
 </script>
