@@ -16,6 +16,11 @@ const router = createRouter({
       path: '/:code',
       component: () => import('./pages/Browse.vue'),
       props: true
+    },
+    {
+      path: '/search',
+      component: () => import('./pages/Search.vue'),
+      props: true
     }
   ]
 });
