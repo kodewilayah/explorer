@@ -14,6 +14,10 @@ const fuse: Fuse<IndexItem> = new Fuse([], {
   threshold: 0.05,
   keys: [
     {
+      name: "code",
+      weight: 3
+    },
+    {
       name: "label",
       weight: 1,
     },
@@ -64,11 +68,23 @@ async function loadIndex(): Promise<void> {
 
 const indexingPromise = loadIndex();
 
-const results = reactive(new LoadableArray<Fuse.FuseResult<IndexItem>>())
-function search(query: string) {
-  results.load(indexingPromise.then(() => fuse.search(query)));
-}
+const state = reactive({
+  query: '',
+  results: new LoadableArray<Fuse.FuseResult<IndexItem>>(),
+  search(query: string) {
+    state.query = query;
+    state.results.load((async (): Promise<Fuse.FuseResult<IndexItem>[]> => {
+      await indexingPromise;
+      const results = fuse.search(query);
+      if (typeof results !== 'object') {
+        return []
+      } else {
+        return fuse.search(query);
+      }
+    })());
+  }
+});
 
 export function useSearch() {
-  return { results, search };
+  return state;
 }

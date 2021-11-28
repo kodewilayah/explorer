@@ -12,11 +12,14 @@
   </div>
   <div v-else class="mb-8">
     <div class="mt-8 mb-4">
+      <router-link :to="{ name: 'search', query: { q: query }}" v-if="query" class="text-red-700 mr-8">
+        &larr; Pencarian: &OpenCurlyDoubleQuote;{{query}}&CloseCurlyDoubleQuote;
+      </router-link>
       <router-link to="/" v-if="!parent" class="text-red-700">
-        &larr; Indonesia
+        &uarr; Indonesia
       </router-link>
       <router-link :to="region?.parentCode" v-else class="text-red-700">
-        &larr;
+        &uarr;
         {{parent.prefix}}
         {{parent.name}}
       </router-link>
@@ -55,6 +58,7 @@
 
 <script lang="ts" setup>
   import { defineProps, computed, watchEffect } from 'vue';
+import { useRoute } from 'vue-router';
   import VSpinner from '../components/VSpinner.vue';
   import { useStore } from '../lib/store';
 
@@ -63,10 +67,12 @@
   });
 
   const store = useStore()
+  const route = useRoute()
   const region = store.useRegion(() => props.code);
   const parent = computed(() => region.parent);
   const children = computed(() => region.children);
   const isLoading = computed(() => region.loading);
+  const query = computed(() => route.query.q || '')
 
   const childrenHeading = computed(() => {
     if (region.level === 1)

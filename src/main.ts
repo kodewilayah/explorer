@@ -14,11 +14,13 @@ const router = createRouter({
     },
     {
       path: '/:code',
+      name: 'browse',
       component: () => import('./pages/Browse.vue'),
       props: true
     },
     {
       path: '/search',
+      name: 'search',
       component: () => import('./pages/Search.vue'),
       props: true
     }
