@@ -18,18 +18,21 @@ export class LoadableArray<T> extends Array<T> {
   }
 
   async load(elements: Loader<T>) {
-    if (elements && 'then' in elements) {
+    if (elements && typeof elements === 'object' && 'then' in elements) {
       this.unload();
       const resolvedElements = await elements;
       if (resolvedElements) {
         this.push(...resolvedElements);
       }
-    } else {
+    } else if (typeof elements === 'object' && Symbol.iterator in elements) {
       if (elements) {
         this.splice(0, this.length, ...elements);
       } else {
         this.splice(0);
       }
+    } else {
+      this.splice(0);
+      console.error(elements);
     }
 
     this.loading = false;
