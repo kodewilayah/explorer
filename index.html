@@ -13,29 +13,22 @@
 
 <body>
   <div id="app" class="container mx-auto px-6 lg:px-8">
-    <div class="mt-12 md:mt-16 lg:mt-20">
-      <h1 class="text-4xl font-semibold mb-6">kodewilayah<span class="text-red-500">.id</span></h1>
-      <div>
-        <p class="mb-2 text-gray-600 text-xl">
-          Referensi lengkap nama dan kode wilayah se-Indonesia
-        </p>
-        <ul class="mb-6 text-gray-500 text-lg">
-          <li class="mb-1">
-            📄 <b class="font-semibold text-gray-800">Siap digunakan</b> dalam bentuk CSV yang sudah dibersihkan</li>
-          <li class="mb-1">
-            🇮🇩 <b class="font-semibold text-gray-800">Lengkap</b> dengan kode Dukcapil, BPS, Pos, dan SLIK, hingga
-            tingkat kelurahan/desa</li>
-          <li>✅ <b class="font-semibold text-gray-800">Bebas pakai</b> tanpa atribusi sama sekali</li>
-        </ul>
+    <div>
+      <div class="mt-12 md:mt-16 lg:mt-20">
+        <h1 class="text-4xl font-semibold mb-6">kodewilayah<span class="text-red-500">.id</span></h1>
+        <div>
+          <p class="mb-6 text-gray-600 text-xl">Referensi lengkap nama dan kode wilayah se-Indonesia </p>
+        </div>
+        <div>
+          <form>
+            <p class="flex flex-row"><input type="search"
+                class="block flex-1 md:flex-none md:w-3/5 lg:w-1/2 p-3 rounded-xl border"><button type="submit"
+                class="py-3 px-6 rounded-xl ml-2 bg-red-500 text-white font-semibold">Cari</button></p>
+          </form>
+        </div>
       </div>
-      <p class="mb-8">
-        <a href="https://raw.githubusercontent.com/kodewilayah/permendagri-72-2019/main/dist/base.csv"
-          class="px-6 py-3 inline-block bg-red-700 hover:bg-red-500 transition-colors duration-500 rounded-2xl text-white font-semibold">Unduh
-          CSV</a>
-      </p>
     </div>
-    <div class="mt-8 md:mt-16 lg:mt-20">
-      <hr class="mb-6">
+    <div class="mt-4 md:mt-8 lg:mt-12">
       <h2 class="mb-4 text-gray-800 font-semibold">Telusuri berdasarkan provinsi</h2>
       <div class="md:flex md:flex-cols-2 lg:flex-cols-3 flex-flow-col-dense md:gap-4">
         <ul class="flex-1">
@@ -148,22 +141,30 @@
         </ul>
       </div>
       <hr class="mt-8 mb-8">
-      <h2 class="mb-2 text-gray-800 font-semibold">Sumber data</h2>
-      <ul class="mb-12 text-gray-600 list-disc ml-5">
-        <li class="mb-1">Permendagri 137/2017 (Dukcapil)</li>
-        <li class="mb-1">Kode pos <span
-            class="text-xs uppercase bg-yellow-50 text-yellow-600 ml-1 relative -top-0.25 px-1 py-0.25 rounded inline-block">Coming
-            soon</span></li>
-        <li class="mb-1">BPS <span
-            class="text-xs uppercase bg-yellow-50 text-yellow-600 ml-1 relative -top-0.25 px-1 py-0.25 rounded inline-block">Coming
-            soon</span></li>
-        <li class="mb-1">SLIK OJK (POJK 18/POJK.03/2017) <span
-            class="text-xs uppercase bg-yellow-50 text-yellow-600 ml-1 relative -top-0.25 px-1 py-0.25 rounded inline-block">Coming
-            soon</span></li>
-        <li class="mb-1">Pusdafil OJK <span
-            class="text-xs uppercase bg-yellow-50 text-yellow-600 ml-1 relative -top-0.25 px-1 py-0.25 rounded inline-block">Coming
-            soon</span></li>
-      </ul>
+      <div class="flex flex-col md:flex-row">
+        <p class="mb-4 md:mr-8"><a
+            href="https://raw.githubusercontent.com/kodewilayah/permendagri-72-2019/main/dist/base.csv"
+            class="px-12 py-3 inline-block bg-red-700 hover:bg-red-500 transition-colors duration-500 rounded-xl text-white font-semibold">Unduh
+            CSV</a></p>
+        <ul class="md:flex-1 mb-4 text-gray-500 text-lg">
+          <li class="mb-1"> 📄 <b class="font-semibold text-gray-800">Siap digunakan</b> dalam bentuk CSV yang sudah
+            dibersihkan</li>
+          <li class="mb-1"> 🇮🇩 <b class="font-semibold text-gray-800">Lengkap</b> berdasarkan Permendagri No. 72/2019
+            hingga tingkat kelurahan/desa</li>
+          <li>✅ <b class="font-semibold text-gray-800">Bebas pakai</b> tanpa atribusi sama sekali</li>
+        </ul>
+      </div>
+      <hr class="mt-4 mb-8">
+      <p class="text-xs mb-8"><a href="https://github.com/kodewilayah" class="text-red-700">Berkontribusi di GitHub
+          →</a></p>
+      <!-- <h2 class="mb-2 text-gray-800 font-semibold">Sumber data</h2>
+    <ul class="mb-12 text-gray-600 list-disc ml-5">
+      <li class="mb-1">Permendagri 72/2019 (Dukcapil)</li>
+      <li class="mb-1">Kode pos <v-label>Coming soon</v-label></li>
+      <li class="mb-1">BPS <v-label>Coming soon</v-label></li>
+      <li class="mb-1">SLIK OJK (POJK 18/POJK.03/2017) <v-label>Coming soon</v-label></li>
+      <li class="mb-1">Pusdafil OJK <v-label>Coming soon</v-label></li>
+    </ul> -->
     </div>
   </div>
   <script type="module" async src="/src/main.ts"></script>
